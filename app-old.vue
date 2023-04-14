@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 	import { ApiCandle, Database } from '~/types';
 
 	const candles = ref<(ApiCandle & { variantsCount: number })[] | null>(null);
@@ -75,4 +75,4 @@
 			}
 		}
 	}
-</style>
+</style> -->

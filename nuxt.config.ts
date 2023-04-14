@@ -16,7 +16,6 @@ export default defineNuxtConfig({
 		'~/assets/styles/global.scss',
 	],
 	modules: [
-		'@nuxtjs/supabase',
 		'nuxt-icon',
 	],
 	vite: {
