@@ -1,0 +1,29 @@
+{
+	"extends": [
+		"stylelint-config-standard-scss",
+		"stylelint-config-recommended-vue/scss",
+		"stylelint-config-idiomatic-order"
+	],
+	"rules": {
+		"indentation": ["tab", { "baseIndentLevel": 1 }],
+		"rule-empty-line-before": "never-multi-line",
+		"color-hex-length": "long",
+		"color-hex-case": "upper",
+		"font-family-name-quotes": "always-unless-keyword",
+		"selector-id-pattern": "^__(nuxt|layout)$",
+		"at-rule-empty-line-before": "never",
+		"selector-class-pattern": ["^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$", {
+			"message": "Expected class selector \"%s\" to be compatible with BEM methodology"
+		}],
+		"max-line-length": [120, {
+			"ignore": ["comments"]
+		}],
+		"value-no-vendor-prefix": [true, {
+			"ignoreValues": ["box"]
+		}],
+		"value-keyword-case": ["lower", {
+			"ignoreFunctions": ["v-bind"]
+		}],
+		"no-descending-specificity": null
+	}
+}

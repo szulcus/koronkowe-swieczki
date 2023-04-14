@@ -1,0 +1,22 @@
+@use "variables" as *;
+@mixin hover {
+	@media (hover: hover) {
+		cursor: pointer;
+		&:hover {
+			@content;
+		}
+	}
+}
+@mixin decorative-bg {
+	position: relative;
+	padding: 20px;
+	background-color: $bg-secondary;
+	&::after {
+		position: absolute;
+		border: 1px solid $text-secondary;
+		content: "";
+		inset: 0;
+		pointer-events: none;
+		transform: translate(5px, -5px);
+	}
+}

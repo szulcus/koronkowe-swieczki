@@ -1,0 +1,31 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"update-supabase": "supabase gen types typescript --project-id \"hfxwojvorjjpsaodyeii\" --schema public > types/supabase.ts"
+	},
+	"devDependencies": {
+		"@nuxtjs/eslint-config-typescript": "^12.0.0",
+		"@nuxtjs/supabase": "^0.3.1",
+		"eslint": "^8.36.0",
+		"eslint-plugin-jsonc": "^2.7.0",
+		"nuxt": "^3.3.1",
+		"nuxt-icon": "^0.3.3",
+		"postcss-html": "^1.5.0",
+		"sass": "^1.59.3",
+		"stylelint": "^14.0.0",
+		"stylelint-config-idiomatic-order": "^9.0.0",
+		"stylelint-config-recommended-vue": "^1.4.0",
+		"stylelint-config-standard-scss": "^7.0.1",
+		"typescript": "^5.0.2",
+		"vite-plugin-eslint": "^1.8.1",
+		"vite-plugin-stylelint": "^4.3.0"
+	},
+	"dependencies": {
+		"supabase": "^1.42.7"
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"extends": ["@nuxtjs/eslint-config-typescript", "plugin:jsonc/recommended-with-jsonc"],
+	"rules": {
+		// Misc
+		"comma-dangle": ["error", "always-multiline"],
+		"space-before-function-paren": ["error", {
+			"anonymous": "never",
+			"named": "never",
+			"asyncArrow": "always"
+		}],
+		"semi": ["error", "always"],
+		"indent": "off",
+		"no-tabs": "off",
+		"arrow-parens": ["error", "always"],
+		"no-console": "off",
+		"brace-style": ["error", "stroustrup"],
+		"curly": ["error", "multi-line"],
+		// TypeScript
+		"@typescript-eslint/member-delimiter-style": [
+			"warn",
+			{
+				"multiline": {
+					"delimiter": "semi",
+					"requireLast": true
+				},
+				"singleline": {
+					"delimiter": "semi",
+					"requireLast": false
+				}
+			}
+		],
+		"@typescript-eslint/no-extra-semi": ["warn"],
+		// Vue
+		"vue/max-attributes-per-line": "off",
+		"vue/singleline-html-element-content-newline": "off",
+		"vue/no-v-html": "off",
+		"vue/html-indent": ["error", "tab"],
+		"vue/script-indent": ["error", "tab", { "baseIndent": 1, "switchCase": 1 }],
+		"vue/no-multiple-template-root": "off",
+		"vue/html-self-closing": ["error", {
+			"html": { "void": "always" }
+		}],
+		"vue/multi-word-component-names": "off",
+		"vue/padding-line-between-blocks": ["error", "always"],
+		"vue/no-duplicate-attributes": ["error", {
+			"allowCoexistClass": false,
+			"allowCoexistStyle": false
+		}],
+		"vue/object-curly-spacing": ["error", "always"],
+		"vue/template-curly-spacing": ["error", "never"],
+		// Imports
+		"import/order": [
+			"error",
+			{
+				"pathGroups": [
+					{
+						"pattern": "~/store",
+						"group": "internal",
+						"position": "after"
+					},
+					{
+						"pattern": "~/types",
+						"group": "internal",
+						"position": "after"
+					},
+					{
+						"pattern": "~/assets/**",
+						"group": "internal",
+						"position": "after"
+					}
+				],
+				"pathGroupsExcludedImportTypes": [
+					["internal"]
+				],
+				"groups": [
+					"builtin",
+					"external",
+					"internal",
+					"unknown",
+					"parent",
+					"sibling",
+					"index",
+					"object",
+					"type"
+				]
+			}
+		],
+		// JSON
+		"jsonc/indent": ["error", "tab"],
+		"jsonc/array-bracket-spacing": ["error", "never"],
+		"jsonc/comma-style": ["error", "last"],
+		"jsonc/key-spacing": ["error", {
+			"beforeColon": false,
+			"afterColon": true,
+			"mode": "strict"
+		}],
+		"jsonc/object-curly-spacing": ["error", "always"],
+		"jsonc/key-name-casing": ["warn",
+			{
+				"SCREAMING_SNAKE_CASE": false, // eslint-disable-line
+				"PascalCase": false, // eslint-disable-line
+				"snake_case": false, // eslint-disable-line
+				"camelCase": true,
+				"kebab-case": true,
+				"ignores": ["/", ":", "."] // e.g. `jsonc/indent`, `@frontend/eslint-config-nuxt`, `commit:v`
+			}
+		]
+	}
+}
