@@ -1,5 +1,28 @@
 <script setup lang="ts">
 	import content from '~/assets/data/content';
+
+	const formData = ref<{ name: string; email: string; content: string }>({
+		name: '',
+		email: '',
+		content: '',
+	});
+
+	const submitForm = async () => {
+		try {
+			await fetch('https://submit-form.com/i4o2jBHS', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					Accept: 'application/json',
+				},
+				body: JSON.stringify(formData.value),
+			});
+			alert('Dziękujemy!');
+		}
+		catch (err) {
+			console.error('Error:', err);
+		}
+	};
 </script>
 
 <template>
@@ -77,16 +100,11 @@
 		<section class="app__section app__section--contact">
 			<h2 class="section__title">{{ content.contact.title }}</h2>
 			<p class="section__description" v-html="content.contact.description" />
-			<form class="section__form" action="">
-				<div class="form__item">
-					<input class="item__input" name="name" type="text" placeholder="Nazwa" />
-				</div>
-				<div class="form__item">
-					<input class="item__input" name="email" type="text" placeholder="Email" />
-				</div>
-				<div class="form__item">
-					<textarea class="item__textarea" rows="10" name="content" placeholder="Twoja wiadomość" />
-				</div>
+			<form class="section__form" @submit.prevent="submitForm">
+				<input v-model="formData.name" class="form__input" name="name" type="text" placeholder="Nazwa" />
+				<input v-model="formData.email" class="form__input" name="email" type="text" placeholder="Email" />
+				<textarea v-model="formData.content" class="form__textarea" rows="10" name="content" placeholder="Twoja wiadomość" />
+				<button class="form__submit" type="submit">Wyślij</button>
 			</form>
 		</section>
 	</main>
@@ -94,16 +112,13 @@
 </template>
 
 <style scoped lang="scss">
-	.app__title {
-		font-size: 1.5rem;
-		text-align: center;
-	}
 	.app {
 		width: min(1000px, 100%);
+		padding: 20px;
 		margin: 0 auto;
 		.app__logo {
 			display: block;
-			width: 350px;
+			width: min(350px, 70%);
 			margin: 130px auto 0;
 		}
 		.app__intro {
@@ -115,27 +130,19 @@
 		.app__section {
 			margin: 40px 0;
 			.section__title {
-				// position: relative;
 				font-size: 2rem;
 				text-align: center;
-
-				// &::after {
-				// 	position: absolute;
-				// 	bottom: 0;
-				// 	left: 50%;
-				// 	width: 150px;
-				// 	height: 2px;
-				// 	background-color: $decorative;
-				// 	content: '';
-				// 	transform: translateX(-50%);
-				// }
 			}
 		}
 		.app__section--offer {
 			.section__price-list {
 				display: flex;
+				flex-direction: column;
 				margin-top: 20px;
 				gap: 40px;
+				@media (min-width: 900px) {
+					flex-direction: row;
+				}
 				.price-list__part {
 					flex: 1;
 					@include decorative-bg;
@@ -162,10 +169,8 @@
 						.variant__info {
 							display: flex;
 							flex-direction: column;
-							.info__name {
-								// font-size: 0.875rem;
-								// font-weight: bold;
-							}
+
+							// .info__name {}
 							.info__price {
 								flex: 1 0 0;
 								margin-bottom: auto;
@@ -191,8 +196,17 @@
 				display: grid;
 				margin-top: 20px;
 				gap: 10px;
-				grid-template-columns: repeat(4, 1fr);
+				grid-template-columns: repeat(1, 1fr);
 				@include decorative-bg;
+				@media (min-width: 480px) {
+					grid-template-columns: repeat(2, 1fr);
+				}
+				@media (min-width: 720px) {
+					grid-template-columns: repeat(3, 1fr);
+				}
+				@media (min-width: 900px) {
+					grid-template-columns: repeat(4, 1fr);
+				}
 				.grid__item {
 					display: flex;
 					align-items: center;
@@ -236,44 +250,32 @@
 				display: grid;
 				gap: 10px;
 				grid-template-columns: repeat(2, 1fr);
-				.form__item {
-					position: relative;
-					&::after {
-						position: absolute;
-						box-shadow:  0 0 0 1px inset $text-secondary;
-						content: "";
-						inset: 0;
-						pointer-events: none;
-
-						// transform: translate(2.5px, -2.5px);
-						transition: 0.2s ease;
+				.form__input,
+				.form__textarea {
+					width: 100%;
+					padding: 10px;
+					border: none;
+					border: 2px solid $text-secondary;
+					background-color: $bg-secondary;
+					font-size: 14px;
+					outline: none;
+					transition: 0.2s ease;
+					&:focus {
+						border-color: $text-primary;
 					}
-					&:nth-child(3) {
-						grid-column: 1 / 3;
-					}
-					&:focus-within {
-						&::after {
-							box-shadow:  0 0 0 1px inset $text-primary;
-							transform: translate(0, 0);
-						}
-					}
-					.item__input,
-					.item__textarea {
-						width: 100%;
-						padding: 10px;
-						border: none;
-						background-color: $bg-secondary;
-						font-size: 14px;
-						outline: none;
-
-					}
-
-					// .item__input {
-					// }
-					.item__textarea {
-						width: 100%;
-						background-color: $bg-secondary;
-						resize: none;
+				}
+				.form__textarea {
+					grid-column: 1 / 3;
+					resize: none;
+				}
+				.form__submit {
+					padding: 10px;
+					background-color: $text-secondary;
+					color: $bg-primary;
+					grid-column: 1 / 3;
+					transition: 0.2s ease;
+					@include hover {
+						background-color: $text-primary;
 					}
 				}
 			}

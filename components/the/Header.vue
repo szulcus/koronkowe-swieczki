@@ -4,7 +4,10 @@
 
 <template>
 	<header class="the-header">
-		<h1 class="the-header__title">Koronkowe Świeczki</h1>
+		<h1 class="the-header__title">
+			Koronkowe Świeczki
+			<p class="title__slogan">…bo najwięcej szczęścia dają małe zachwyty</p>
+		</h1>
 		<div class="the-header__social-media">
 			<a href="https://www.facebook.com/profile.php?id=100089067432296" target="_blank">
 				<icon class="social-media__icon" name="fa-brands:facebook" />
@@ -30,7 +33,13 @@
 		border-bottom: 2px dashed $text-secondary;
 		background-color: $bg-secondary;
 		.the-header__title {
-			font-size: 1.5rem;
+			font-size: 1.375rem;
+			.title__slogan {
+				margin-top: -6px;
+				margin-left: 18px;
+				color: $text-secondary;
+				font-size: 10px;
+			}
 		}
 		.the-header__social-media {
 			display: flex;

@@ -1,4 +1,4 @@
-import sSize from '../images/sizes/s.jpg';
+import sSize from '../images/sizes/s.jpeg';
 import mSize from '../images/sizes/m.jpg';
 import lSize from '../images/sizes/l.jpg';
 import miniSet from '../images/sets/mini.jpg';
@@ -55,7 +55,7 @@ interface Content {
 	};
 }
 const content: Content = {
-	intro: 'Koronkowe eleganckie, stylowe ubranka, ręcznie szydełkowane z miłością, pasją i sercem, wykonane ze 100% bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego (S i M - bezzapachowe, L - kojąca wonią lasu i bursztynu z nutami cytrusów).',
+	intro: 'Ręcznie szydełkowane, eleganckie, stylowe ubranka. Tworzone z miłością, pasją i sercem. Wykonane z bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego. Dostępne w trzech rozmiarach. S i M - bezzapachowe, L - kojące wonią lasu i bursztynu z pikantnymi nutami cytrusów.',
 	offer: {
 		title: 'Oferta',
 		sizes: {
@@ -167,11 +167,11 @@ const content: Content = {
 			{ id: '1698A', color: '#EAFFBF', name: 'New|jasny groszkowy', available: false },
 			{ id: '1782B', color: '#FCF3E8', name: 'New|perłowe ecru', available: false },
 		],
-		warning: 'Prezentowane kolory mogą różnić się od kolorów rzeczywistych, wynika to z różnorodności dostępnego sprzętu komputerowego oraz jego indywidualnych ustawień a w szczególności ustawień monitora i karty graficznej, różnorodności drukarek i ekranów telefonów.',
+		warning: 'Prezentowane kolory mogą różnić się od kolorów rzeczywistych. Wynika to z różnorodności dostępnego sprzętu komputerowego oraz jego indywidualnych ustawień a w szczególności wyświetlacza.',
 	},
 	usage: {
 		title: 'Zastosowanie',
-		description: 'Małe świeczki są doskonałym pomysłem na <strong>podziękowanie dla gości</strong> z okazji: chrztu, komunii, bierzmowania, wieczoru panieńskiego, wesela, baby shower, urodzin, rocznicy, jubileuszu, dla pracowników.. Są pakowane pojedynczo w eleganckie pudełka.\n Koronkowe świeczki mogą również w zestawach być świetnym upominkiem, prezentem z okazji różnych uroczystości czy świąt (proszę o informację czy zapakować każdą pojedynczo czy w jednym pudełku, czy połączyć różne wielkości w jednym opakowaniu na prezent).\nKoronkowe świeczki sprawią, że obdarowana osoba poczuje się wyjątkowo!! Są produktem premium - wysokiej jakości, tworzone z dbałością o szczegóły.',
+		description: 'Małe świeczki są doskonałym pomysłem na podziękowania dla gości z okazji: chrztu, komunii, bierzmowania, wieczoru panieńskiego, wesela, baby shower, urodzin, jubileuszu i nie tylko! Są pakowane w gustowne pudełka (białe, brązowe lub czarne), prezentują się bardzo elegancko!\n\nKoronkowe Świeczki zapakowane pojedynczo lub w zestawach, w celofan lub pudełko mogą również być świetnym prezentem z okazji różnych uroczystości czy świąt. Obdarowana takim upominkiem osoba z całą pewnością poczuje się wyjątkowo! Są produktem premium - wysokiej jakości, tworzone z dbałością o szczegóły.\n\nRękodzieło jest zawsze dobrym wyborem!',
 	},
 	contact: {
 		title: 'Kontakt',
