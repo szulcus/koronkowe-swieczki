@@ -167,13 +167,8 @@
 							object-fit: cover;
 						}
 						.variant__info {
-							display: flex;
-							flex-direction: column;
-
 							// .info__name {}
 							.info__price {
-								flex: 1 0 0;
-								margin-bottom: auto;
 								font-size: 1.25rem;
 								font-weight: bold;
 							}

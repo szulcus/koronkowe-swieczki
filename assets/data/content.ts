@@ -144,7 +144,7 @@ const content: Content = {
 			{ id: '0353', color: '#A7363F', name: 'Bordowy', available: true },
 			{ id: '0354', color: '#CCC9C1', name: 'Jasnoszary', customName: 'Siwy', available: true },
 			{ id: '0355', color: '#3B3E65', name: 'Granatowy', available: true },
-			{ id: '0356', color: '#F9EFBE', name: 'Jasnożółty', customName: 'Żółty pastelowy', available: true },
+			{ id: '0356', color: '#F9EFBE', name: 'Jasnożółty', customName: 'Cytrynowy', available: true },
 			{ id: '0358', color: '#DBB1AE', name: 'Wrzosowy', customName: 'Różowy', available: true },
 			{ id: '0359', color: '#A1C5CE', name: 'Błękitny', customName: 'Niebieski', available: true },
 			{ id: '0360', color: '#ffe750', name: 'Żółty', available: true },
