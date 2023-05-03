@@ -55,7 +55,7 @@ interface Content {
 	};
 }
 const content: Content = {
-	intro: 'Ręcznie szydełkowane, eleganckie, stylowe ubranka. Tworzone z miłością, pasją i sercem. Wykonane z bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego. Dostępne w trzech rozmiarach. S i M - bezzapachowe, L - kojące wonią lasu i bursztynu z pikantnymi nutami cytrusów.',
+	intro: 'Ręcznie szydełkowane, eleganckie, stylowe ubranka. Tworzone z miłością, pasją i sercem. Wykonane z bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego. Dostępne w trzech rozmiarach. S i M - bezzapachowe (za dopłatą 3 zł możliwość wyboru świeczki sojowej, zapachowej), L - kojące wonią lasu i bursztynu z pikantnymi nutami cytrusów.',
 	offer: {
 		title: 'Oferta',
 		sizes: {

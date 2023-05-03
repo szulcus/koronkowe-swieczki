@@ -45,7 +45,7 @@
 			display: flex;
 			gap: 10px;
 			.social-media__icon {
-				font-size: 20px;
+				font-size: 22px;
 				transition: 0.2s ease;
 				@include hover {
 					opacity: 0.7;
