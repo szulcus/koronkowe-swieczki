@@ -2,10 +2,11 @@
 	import sSize from '~/assets/images/sizes/s.jpeg';
 	import mSize from '~/assets/images/sizes/m.jpg';
 	import lSize from '~/assets/images/sizes/l.jpg';
-	import miniSet from '~/assets/images/sets/mini.jpg';
+	import xlSize from '~/assets/images/sizes/xl.jpeg';
+	import miniSet from '~/assets/images/sets/mini.jpeg';
 	import smallSet from '~/assets/images/sets/small.jpg';
-	import giftSet from '~/assets/images/sets/gift.jpg';
-	import bigSet from '~/assets/images/sets/big.jpg';
+	import giftSet from '~/assets/images/sets/gift.jpeg';
+	import bigSet from '~/assets/images/sets/big.jpeg';
 
 	type Variant<T extends string> = {
 		name: string;
@@ -36,11 +37,21 @@
 		},
 		{
 			name: 'Rozmiar L',
-			price: '30zł',
+			price: '25zł',
 			img: lSize,
 			properties: {
 				burningTime: '12 godzin',
 				dimensions: '5cm x 5cm',
+				// 'słoiczek wielokrotnego użytku',
+			},
+		},
+		{
+			name: 'Rozmiar XL',
+			price: '30zł',
+			img: xlSize,
+			properties: {
+				burningTime: '15 godzin',
+				dimensions: '5.5cm x 8cm',
 				// 'słoiczek wielokrotnego użytku',
 			},
 		},

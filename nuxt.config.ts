@@ -5,6 +5,11 @@ import stylelint from 'vite-plugin-stylelint';
 export default defineNuxtConfig({
 	app: {
 		head: {
+			title: 'Koronkowe Świeczki',
+			meta: [
+				{ name: 'description', content: 'Ręcznie szydełkowane, eleganckie, stylowe ubranka. Tworzone z miłością, pasją i sercem. Wykonane z bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego. Dostępne w trzech rozmiarach. S i M - bezzapachowe (za dopłatą 3 zł możliwość wyboru świeczki sojowej, zapachowej), L - kojące wonią lasu i bursztynu z pikantnymi nutami cytrusów.' },
+				{ name: 'keywords', content: 'koronkowe świeczki, ubranka na świeczki, pomysł na prezent' },
+			],
 			link: [
 				{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 				{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
