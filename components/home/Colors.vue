@@ -44,7 +44,8 @@
 </script>
 
 <template>
-	<AppSection title="Dostepne kolory" class="home-colors">
+	<AppSection title="Kolory" class="home-colors">
+		<div class="home-colors__description">Świeczki są dostępne w bogatej palecie barw:</div>
 		<ul class="home-colors__grid">
 			<li
 				v-for="colorVariant in availableColors"
@@ -55,12 +56,17 @@
 				{{ colorVariant.customName ?? colorVariant.name }}
 			</li>
 		</ul>
-		<div class="section__warning">* Prezentowane kolory mogą różnić się od kolorów rzeczywistych. Wynika to z różnorodności dostępnego sprzętu komputerowego oraz jego indywidualnych ustawień a w szczególności wyświetlacza.</div>
+		<div class="section__warning">*Uwaga: prezentowane kolory mogą różnić się od kolorów rzeczywistych.</div>
 	</AppSection>
 </template>
 
 <style lang="scss" scoped>
 	.home-colors {
+		.home-colors__description {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
 		.home-colors__grid {
 			display: grid;
 			margin-top: 20px;

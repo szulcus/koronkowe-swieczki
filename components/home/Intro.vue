@@ -5,7 +5,11 @@
 <template>
 	<div class="home-intro">
 		<img class="intro__logo" src="~/assets/images/logo.svg" alt="Koronkowe Świeczki Logo" />
-		<p class="intro__content">Ręcznie szydełkowane, eleganckie, stylowe ubranka. Tworzone z miłością, pasją i sercem. Wykonane z bawełny merceryzowanej. Można je używać wielokrotnie. Do każdego produktu dołączona jest świeczka wykonana z wosku roślinnego. Dostępne w czterech rozmiarach. S i M - bezzapachowe (przy większym zamówieniu i za dopłatą 3zł/szt. możliwość wyboru świeczki sojowej, zapachowej), L - kojące wonią lasu i bursztynu z pikantnymi nutami cytrusów. XL - bezzapachowa, bryłowa.</p>
+		<p class="intro__content">
+			Z miłością, pasją i sercem szydełkuję eleganckie, stylowe ubranka do świeczek. Wykonuję je z bawełny merceryzowanej. Można ich używać wielokrotnie. Do każdego stworzonego przeze mnie produktu dołączam świeczkę wykonaną z wosku roślinnego.
+			<br /><br />
+			Moja oferta obejmuje cztery rozmiary - S i M są bezzapachowe (przy większym zamówieniu, za dodatkową opłatą 3zł/szt. istnieje możliwość wyboru świeczki sojowej, zapachowej), L - o kojącym aromacie lasu i bursztynu z pikantnymi nutami cytrusów, natomiast XL to bezzapachowe świeczki bryłowe.
+		</p>
 	</div>
 </template>
 

@@ -26,7 +26,7 @@
 <template>
 	<AppSection title="Kontakt" class="home-contact">
 		<p class="home-contact__description">
-			Zapraszam do kontaktu na <a href="https://www.facebook.com/profile.php?id=100089067432296" target="_blank">Facebooku</a>, <a href="https://www.instagram.com/koronkowe_swieczki" target="_blank">Instagramie</a>, lub poprzez formularz kontaktowy:
+			Zapraszam do kontaktu poprzez <a href="https://www.facebook.com/profile.php?id=100089067432296" target="_blank">Facebooka</a>, <a href="https://www.instagram.com/koronkowe_swieczki" target="_blank">Instagrama</a>, lub formularz kontaktowy poniżej. Z niecierpliwością czekam na Twoją wiadomość!
 		</p>
 		<form class="home-contact__form" @submit.prevent="submitForm">
 			<input v-model="formData.name" class="form__input" name="name" type="text" placeholder="Nazwa" />

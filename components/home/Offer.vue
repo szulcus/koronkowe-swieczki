@@ -94,6 +94,7 @@
 
 <template>
 	<AppSection title="Oferta" class="home-offer">
+		<div class="home-offer__description">Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
 				<h3 class="part__title">Rozmiary</h3>
@@ -145,6 +146,11 @@
 
 <style lang="scss" scoped>
 	.home-offer {
+		.home-offer__description {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
 		.home-offer__price-list {
 			display: flex;
 			flex-direction: column;
