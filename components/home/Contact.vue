@@ -26,12 +26,14 @@
 <template>
 	<AppSection title="Kontakt" class="home-contact">
 		<p class="home-contact__description">
-			Zapraszam do kontaktu poprzez <a href="https://www.facebook.com/profile.php?id=100089067432296" target="_blank">Facebooka</a>, <a href="https://www.instagram.com/koronkowe_swieczki" target="_blank">Instagrama</a>, lub formularz kontaktowy poniżej. Z niecierpliwością czekam na Twoją wiadomość!
+			Zapraszam do kontaktu poprzez <a href="https://www.facebook.com/profile.php?id=100089067432296" target="_blank">Facebooka</a>, <a href="https://www.instagram.com/koronkowe_swieczki" target="_blank">Instagrama</a>, lub formularz kontaktowy poniżej.
+			<br />
+			Z niecierpliwością czekam na Twoją wiadomość!
 		</p>
 		<form class="home-contact__form" @submit.prevent="submitForm">
-			<input v-model="formData.name" class="form__input" name="name" type="text" placeholder="Nazwa" />
-			<input v-model="formData.email" class="form__input" name="email" type="text" placeholder="Email" />
-			<textarea v-model="formData.content" class="form__textarea" rows="10" name="content" placeholder="Twoja wiadomość" />
+			<input v-model="formData.name" class="form__input" required name="name" type="text" placeholder="Nazwa" />
+			<input v-model="formData.email" class="form__input" required name="email" type="email" placeholder="Email" />
+			<textarea v-model="formData.content" class="form__textarea" required rows="10" name="content" placeholder="Twoja wiadomość" />
 			<button class="form__submit" type="submit">Wyślij</button>
 		</form>
 	</AppSection>

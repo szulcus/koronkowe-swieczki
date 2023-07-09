@@ -7,6 +7,7 @@
 	import smallSet from '~/assets/images/sets/small.jpg';
 	import giftSet from '~/assets/images/sets/gift.jpeg';
 	import bigSet from '~/assets/images/sets/big.jpeg';
+	import premiumSet from '~/assets/images/sets/premium.jpg';
 
 	type Variant<T extends string> = {
 		name: string;
@@ -58,11 +59,11 @@
 	];
 	const sets: Variant<'items'>[] = [
 		{
-			name: 'Zestaw duży',
-			price: '100zł',
-			img: bigSet,
+			name: 'Zestaw mini',
+			price: '25zł',
+			img: miniSet,
 			properties: {
-				items: '3xM + 4xS',
+				items: '2xS',
 			},
 		},
 		{
@@ -82,11 +83,19 @@
 			},
 		},
 		{
-			name: 'Zestaw mini',
-			price: '25zł',
-			img: miniSet,
+			name: 'Zestaw duży',
+			price: '100zł',
+			img: bigSet,
 			properties: {
-				items: '2xS',
+				items: '3xM + 4xS',
+			},
+		},
+		{
+			name: 'Zestaw PREMIUM',
+			price: '110zł',
+			img: premiumSet,
+			properties: {
+				items: '3xM + 5xS',
 			},
 		},
 	];

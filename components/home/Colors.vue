@@ -45,7 +45,7 @@
 
 <template>
 	<AppSection title="Kolory" class="home-colors">
-		<div class="home-colors__description">Świeczki są dostępne w bogatej palecie barw:</div>
+		<div class="home-colors__description">Koronkowe Świeczki są dostępne w bogatej palecie barw:</div>
 		<ul class="home-colors__grid">
 			<li
 				v-for="colorVariant in availableColors"
