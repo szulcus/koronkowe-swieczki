@@ -7,13 +7,13 @@
 		}
 	}
 }
-@mixin decorative-bg {
+@mixin decorative-bg($border: $text-secondary, $bg: $bg-secondary) {
 	position: relative;
 	padding: 20px;
-	background-color: $bg-secondary;
+	background-color: $bg;
 	&::after {
 		position: absolute;
-		border: 1px solid $text-secondary;
+		border: 1px solid $border;
 		content: "";
 		inset: 0;
 		pointer-events: none;

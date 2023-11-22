@@ -90,8 +90,7 @@
 				.item__sample {
 					width: 30px;
 					height: 30px;
-					border: 2px dashed $text-secondary;
-					border-radius: 5px;
+					border: 1px solid $text-secondary;
 					background-color: var(--bg);
 				}
 			}
