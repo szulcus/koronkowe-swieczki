@@ -130,7 +130,7 @@
 			properties: {
 				burningTime: 'Rozmiar L',
 			},
-			description: 'Zapakowana w szkle - pachnąca świętami z kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: czerwonym, złotym, zielonym, lnianym, beżowym... Zapakowana w celofan z delikatnymi akcentami świątecznymi, takimi jak gwiazdki czy choinki.',
+			description: 'Świeca w szkle - pachnąca świętami z kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: czerwonym, złotym, zielonym, lnianym, beżowym... Zapakowana w celofan z delikatnymi akcentami świątecznymi, takimi jak gwiazdki czy choinki.',
 		},
 		{
 			name: 'Zestaw mikołajkowy',
