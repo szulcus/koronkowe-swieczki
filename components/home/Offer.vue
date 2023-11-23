@@ -16,7 +16,8 @@
 	import santaClausSet from '~/assets/images/christmas-offer/santa-claus-set.jpg';
 	import snowmanSet from '~/assets/images/christmas-offer/snowman-set.jpeg';
 	import decorativeCandle from '~/assets/images/christmas-offer/decorative-candle.jpeg';
-	import setOfChristmasTrees from '~/assets/images/christmas-offer/set-of-christmas-trees.jpg';
+	import setOfChristmasTrees from '~/assets/images/christmas-offer/set-of-christmas-trees.jpeg';
+	// import setOfChristmasTrees from '~/assets/images/christmas-offer/trees.jpeg';
 	import adventSet from '~/assets/images/christmas-offer/advent-set.jpg';
 	import christmasGiftSet from '~/assets/images/christmas-offer/gift-set.jpeg';
 
@@ -120,7 +121,7 @@
 			properties: {
 				burningTime: 'Rozmiar S',
 			},
-			description: 'Czerwona lub złota świeczka w koronkowym ubranku, zapakowana w stylowe czarne pudełko przewiązane czerwoną kokardką z dołączonym drewnianym napisem "Merry Christmas". Idealna jako dodatek do prezentu lub wyraź podziękowania dla klientów, pracowników, bliskich.',
+			description: 'Czerwona lub złota świeczka w koronkowym ubranku, zapakowana w stylowe czarne pudełko przewiązane czerwoną kokardką z dołączonym drewnianym napisem "Merry Christmas". Idealna jako dodatek do prezentu lub wyraz podziękowania dla klientów, pracowników, bliskich.',
 		},
 		{
 			name: 'Świeca wigilijna',
@@ -174,7 +175,7 @@
 			properties: {
 				burningTime: '4 x Rozmiar XL',
 			},
-			description: 'Cztery bryłowe świece, każda owinięta eleganckim koronkowym ubrankiem w kolorze: czerwonym, zielonym lub złotym. Idealne do dekoracji stołu wigilijnego lub wieńca adwentowego.',
+			description: 'Cztery bryłowe świece, każda owinięta eleganckim koronkowym ubrankiem w kolorze: czerwonym, zielonym lub złotym. Idealne do dekoracji wieńca adwentowego lub stołu wigilijnego.',
 		},
 		{
 			name: 'Zestaw upominkowy',
@@ -183,7 +184,7 @@
 			properties: {
 				burningTime: 'Zestaw PREMIUM',
 			},
-			description: 'Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek w kolorze czerwonym. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas".',
+			description: 'Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek rozmiaru S w kolorze czerwonym. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas".',
 		},
 	];
 </script>
