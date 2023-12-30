@@ -31,7 +31,7 @@
 		{ id: '0369', color: '#295E18', name: 'Ciemnozielony', customName: 'Zielony', available: true },
 		{ id: '0370', color: '#FCEAB6', name: 'Beżowy', available: true },
 		{ id: '0400', color: '#FFFFFF', name: 'Biały', available: true },
-		{ id: '1642', color: '#329B91', name: 'Brudny turkusowy', available: false },
+		{ id: '1642', color: '#329B91', name: 'Brudny turkusowy', customName: 'Turkusowy', available: true },
 		{ id: '1754', color: '#FAE6D2', name: 'Jasny łososiowy', available: false },
 		{ id: '1815', color: '#C9C7C5', name: 'Beżowoszary', available: false },
 		{ id: '1588B', color: '#F5E2FC', name: 'New|jasny fioletowy', available: false },

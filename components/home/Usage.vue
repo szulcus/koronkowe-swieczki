@@ -24,6 +24,7 @@
 			.content__img {
 				display: block;
 				width: min(480px, 100%);
+				border: 1px solid $text-secondary;
 				margin: 0 auto;
 				margin-top: 20px;
 				aspect-ratio: 16 / 9;
