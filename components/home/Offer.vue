@@ -20,6 +20,11 @@
 	// // import setOfChristmasTrees from '~/assets/images/christmas-offer/trees.jpeg';
 	// import adventSet from '~/assets/images/christmas-offer/advent-set.jpg';
 	// import christmasGiftSet from '~/assets/images/christmas-offer/gift-set.jpeg';
+	import giftCandleS from '~/assets/images/grandpa-offer/gift-candle-s.jpeg';
+	import giftCandleL from '~/assets/images/grandpa-offer/gift-candle-l.jpeg';
+	import giftCandleXl from '~/assets/images/grandpa-offer/gift-candle-xl.jpeg';
+	import flowerSet from '~/assets/images/grandpa-offer/flower-set.jpeg';
+	import grandpaGiftSet from '~/assets/images/grandpa-offer/gift-set.jpeg';
 
 	type Variant = {
 		name: string;
@@ -187,6 +192,54 @@
 	// 		description: 'Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek rozmiaru S w kolorze czerwonym. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas".',
 	// 	},
 	// ];
+
+	const grandpaOffer: Variant[] = [
+		{
+			name: 'Świeczka upominkowa S',
+			price: '15zł',
+			img: giftCandleS,
+			properties: {
+				burningTime: 'Rozmiar S',
+			},
+			description: 'Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem "Kochanej Babci". Idealna jako dodatek do prezentu lub wyraź miłości do Bacbi. ',
+		},
+		{
+			name: 'Świeca upominkowa L',
+			price: '25zł',
+			img: giftCandleL,
+			properties: {
+				burningTime: 'Rozmiar L',
+			},
+			description: 'Elegancka świeczka w szkle kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: np. turkusowym, bordowym, złotym, lnianym, beżowym... Zapakowana w celofan z doczepionym drewnianym napisem "Kochanej Babci".',
+		},
+		{
+			name: 'Świeca upominkowa XL',
+			price: '30zł',
+			img: giftCandleXl,
+			properties: {
+				burningTime: 'Rozmiar XL',
+			},
+			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym ubrankiem. Dostępna we wszystkich kolorach. Umieszczona na drewnianej podstawie z dołączonym (również drewnianym) napisem "Kochanej Babci", zapakowana w celofan.',
+		},
+		{
+			name: 'Zestaw kwiatowy',
+			price: '30zł',
+			img: flowerSet,
+			properties: {
+				burningTime: '3 x Rozmiar S',
+			},
+			description: 'Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym lnianym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem "Kochanej Babci".',
+		},
+		{
+			name: 'Zestaw upominkowy',
+			price: '110zł',
+			img: grandpaGiftSet,
+			properties: {
+				burningTime: 'Zestaw PREMIUM',
+			},
+			description: 'Pomysł na elegancki i ekskluzywny prezent dla Babci  - zestaw składający się z trzech koronkowych świeczek rozmiaru M oraz pięciu koronkowych świeczek w rozmiarze S. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione elegancką kokardą i dołączonym drewnianym napisem "Kochanej Babci".',
+		},
+	];
 </script>
 
 <template>
@@ -270,6 +323,35 @@
 					</div>
 				</div>
 			</div> -->
+			<div id="oferta-na-dzien-babci" class="price-list__part price-list__part--special">
+				<h3 class="part__title">Oferta na Dzień Babci</h3>
+				<div
+					v-for="item in grandpaOffer"
+					:key="item.name"
+					class="part__variant"
+				>
+					<img class="variant__img" :src="item.img" :alt="item.name" />
+					<div class="variant__info">
+						<div class="info__name">{{ item.name }}</div>
+						<div class="info__price">{{ item.price }}</div>
+						<div class="info__properties">
+							<div v-if="item.properties.burningTime" class="properties__property">
+								<icon name="fa6-solid:arrow-up-right-from-square" />
+								{{ item.properties.burningTime }}
+							</div>
+							<div v-if="item.properties.dimensions" class="properties__property">
+								<icon name="fa6-solid:ruler" />
+								{{ item.properties.dimensions }}
+							</div>
+							<div v-if="item.properties.items" class="properties__property">
+								<icon name="fa6-solid:box" />
+								{{ item.properties.items }}
+							</div>
+						</div>
+						<div class="info__description">{{ item.description }}</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</AppSection>
 </template>
@@ -334,31 +416,30 @@
 					}
 				}
 			}
+			.price-list__part--special {
+				display: grid;
+				grid-column: 1 / -1;
+				grid-template-columns: repeat(1, 1fr);
 
-			// .price-list__part--special {
-			// 	display: grid;
-			// 	grid-column: 1 / -1;
-			// 	grid-template-columns: repeat(1, 1fr);
-
-			// 	// @include decorative-bg(red, rgb(red, 0.1));
-			// 	.part__variant {
-			// 		flex-direction: column;
-			// 		@media (min-width: 720px) {
-			// 			flex-direction: row;
-			// 		}
-			// 		.variant__info {
-			// 			font-size: 18px;
-			// 		}
-			// 		.variant__img {
-			// 			width: 70%;
-			// 			margin: 0 auto;
-			// 			@media (min-width: 720px) {
-			// 				width: 200px;
-			// 				flex-direction: row;
-			// 			}
-			// 		}
-			// 	}
-			// }
+				// @include decorative-bg(red, rgb(red, 0.1));
+				.part__variant {
+					flex-direction: column;
+					@media (min-width: 720px) {
+						flex-direction: row;
+					}
+					.variant__info {
+						font-size: 18px;
+					}
+					.variant__img {
+						width: 70%;
+						margin: 0 auto;
+						@media (min-width: 720px) {
+							width: 200px;
+							flex-direction: row;
+						}
+					}
+				}
+			}
 		}
 	}
 </style>
