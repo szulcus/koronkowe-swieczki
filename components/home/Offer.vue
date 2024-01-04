@@ -201,7 +201,7 @@
 			properties: {
 				burningTime: 'Rozmiar S',
 			},
-			description: 'Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem "Kochanej Babci". Idealna jako dodatek do prezentu lub wyraź miłości do Bacbi. ',
+			description: 'Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem "Kochanej Babci". Idealna jako dodatek do prezentu lub wyraz miłości do Bacbi. ',
 		},
 		{
 			name: 'Świeca upominkowa L',
@@ -228,7 +228,7 @@
 			properties: {
 				burningTime: '3 x Rozmiar S',
 			},
-			description: 'Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym lnianym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem "Kochanej Babci".',
+			description: 'Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym, beżowym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem "Kochanej Babci".',
 		},
 		{
 			name: 'Zestaw upominkowy',
