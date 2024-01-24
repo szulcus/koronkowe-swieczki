@@ -2,6 +2,8 @@ import { SpecialOffer } from '~/types';
 import giftCandleS from '~/assets/images/grandpa-offer/gift-candle-s.jpeg';
 import giftCandleL from '~/assets/images/grandpa-offer/gift-candle-l.jpeg';
 import giftCandleXl from '~/assets/images/grandpa-offer/gift-candle-xl.jpeg';
+import candleWithGrandpa from '~/assets/images/grandpa-offer/candle-with-grandpa.jpeg';
+import candleWithGrandad from '~/assets/images/grandpa-offer/candle-with-grandad.jpeg';
 import flowerSet from '~/assets/images/grandpa-offer/flower-set.jpeg';
 import grandpaGiftSet from '~/assets/images/grandpa-offer/gift-set.jpeg';
 
@@ -35,6 +37,24 @@ export default {
 				equivalent: 'Rozmiar XL',
 			},
 			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym ubrankiem. Dostępna we wszystkich kolorach. Umieszczona na drewnianej podstawie z dołączonym (również drewnianym) napisem "Kochanej Babci", zapakowana w celofan.',
+		},
+		{
+			name: 'Świeca z babcią',
+			price: '30zł',
+			img: candleWithGrandpa,
+			properties: {
+				burningTime: 'Rozmiar XL',
+			},
+			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką babci, zapakowana w celofan.',
+		},
+		{
+			name: 'Świeca z dziadkiem',
+			price: '30zł',
+			img: candleWithGrandad,
+			properties: {
+				burningTime: 'Rozmiar XL',
+			},
+			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką dziadka, zapakowana w celofan.',
 		},
 		{
 			name: 'Zestaw kwiatowy',
