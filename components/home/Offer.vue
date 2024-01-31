@@ -5,6 +5,7 @@
 	import mSize from '~/assets/images/sizes/m.jpg';
 	import lSize from '~/assets/images/sizes/l.jpg';
 	import xlSize from '~/assets/images/sizes/xl.jpeg';
+	import xxlSize from '~/assets/images/sizes/xxl.jpeg';
 	// Sets
 	import miniSet from '~/assets/images/sets/mini.jpeg';
 	import smallSet from '~/assets/images/sets/small.jpg';
@@ -54,6 +55,16 @@
 			properties: {
 				burningTime: '15 godzin',
 				dimensions: '5.5cm x 8cm',
+				// 'słoiczek wielokrotnego użytku',
+			},
+		},
+		{
+			name: 'Rozmiar XXL',
+			price: '35zł',
+			img: xxlSize,
+			properties: {
+				burningTime: '30 godzin',
+				dimensions: '6cm x 10cm',
 				// 'słoiczek wielokrotnego użytku',
 			},
 		},
