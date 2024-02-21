@@ -15,7 +15,7 @@
 	// Special offer
 	// import specialOffer from '~/assets/data/christmas-offer';
 	// import specialOffer from '~/assets/data/grandpa-offer';
-	import specialOffer from '~/assets/data/valentine-offer';
+	// import specialOffer from '~/assets/data/valentine-offer';
 
 	const sizes: SizeOfferVariant[] = [
 		{
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 			</div>
-			<div :id="specialOffer.id" class="price-list__part price-list__part--special">
+			<div v-if="false" :id="specialOffer.id" class="price-list__part price-list__part--special">
 				<h3 class="part__title">{{ specialOffer.name }}</h3>
 				<div
 					v-for="item in specialOffer.variants"
