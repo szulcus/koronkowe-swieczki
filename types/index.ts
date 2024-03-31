@@ -8,13 +8,20 @@ export interface OfferVariant {
 	description?: string;
 }
 export interface SizeOfferVariant extends OfferVariant {
-	properties: Record<'burningTime' | 'dimensions', string>;
+	properties: {
+		burningTime?: string;
+		dimensions: string;
+	};
 }
 export interface SetOfferVariant extends OfferVariant {
-	properties: Record<'items', string>;
+	properties: {
+		items: string;
+	};
 }
 export interface SpecialOfferVariant extends OfferVariant {
-	properties: Record<'equivalent', string>;
+	properties: {
+		equivalent: string;
+	};
 }
 export interface SpecialOffer {
 	name: string;

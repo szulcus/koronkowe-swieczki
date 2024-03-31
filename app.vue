@@ -6,6 +6,7 @@
 		<HomeIntro />
 		<HomeOffer />
 		<HomeColors />
+		<HomeScentedOffer />
 		<HomeUsage />
 		<HomeContact />
 	</main>

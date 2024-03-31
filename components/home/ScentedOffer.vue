@@ -1,17 +1,9 @@
 <script setup lang="ts">
-	import { SizeOfferVariant, SetOfferVariant, SpecialOffer } from '~/types';
+	import { SizeOfferVariant, SpecialOffer } from '~/types';
 	// Sizes
-	import sSize from '~/assets/images/sizes/s.jpeg';
-	import mSize from '~/assets/images/sizes/m.jpg';
-	import lSize from '~/assets/images/sizes/l.jpg';
-	import xlSize from '~/assets/images/sizes/xl.jpeg';
-	import xxlSize from '~/assets/images/sizes/xxl.jpeg';
-	// Sets
-	import miniSet from '~/assets/images/sets/mini.jpeg';
-	import smallSet from '~/assets/images/sets/small.jpg';
-	import giftSet from '~/assets/images/sets/gift.jpeg';
-	import bigSet from '~/assets/images/sets/big.jpeg';
-	import premiumSet from '~/assets/images/sets/premium.jpg';
+	import premiumSize from '~/assets/images/scented-sizes/premium.jpg';
+	import mSize from '~/assets/images/scented-sizes/m.jpg';
+	import sSize from '~/assets/images/scented-sizes/s.jpeg';
 	// Special offer
 	// import christmasOffer from '~/assets/data/christmas-offer';
 	// import grandpaOffer from '~/assets/data/grandpa-offer';
@@ -20,103 +12,40 @@
 
 	const sizes: SizeOfferVariant[] = [
 		{
-			name: 'Rozmiar S',
-			price: '15zł',
-			img: sSize,
+			name: 'PREMIUM',
+			price: '80zł',
+			img: premiumSize,
 			properties: {
-				burningTime: '4 godziny',
-				dimensions: '4cm x 1.5cm',
-				// 'wymienny podgrzewacz',
+				// burningTime: '40-51 godzin',
+				dimensions: '7cm x 9cm',
 			},
 		},
 		{
 			name: 'Rozmiar M',
-			price: '20zł',
+			price: '25zł',
 			img: mSize,
 			properties: {
-				burningTime: '9 godzin',
-				dimensions: '6cm x 2.5cm',
-				// 'wymienny podgrzewacz',
+				// burningTime: '9 godzin',
+				dimensions: '6.5cm x 2.5cm',
 			},
 		},
 		{
-			name: 'Rozmiar L',
-			price: '25zł',
-			img: lSize,
+			name: 'Rozmiar S',
+			price: '15zł',
+			img: sSize,
 			properties: {
-				burningTime: '12 godzin',
-				dimensions: '5cm x 5cm',
-				// 'słoiczek wielokrotnego użytku',
-			},
-		},
-		{
-			name: 'Rozmiar XL',
-			price: '30zł',
-			img: xlSize,
-			properties: {
-				burningTime: '15 godzin',
-				dimensions: '5.5cm x 8cm',
-				// 'słoiczek wielokrotnego użytku',
-			},
-		},
-		{
-			name: 'Rozmiar XXL',
-			price: '35zł',
-			img: xxlSize,
-			properties: {
-				burningTime: '30 godzin',
-				dimensions: '6cm x 10cm',
-				// 'słoiczek wielokrotnego użytku',
+				// burningTime: '12 godzin',
+				dimensions: '4cm x 1.5cm',
 			},
 		},
 	];
-	const sets: SetOfferVariant[] = [
-		{
-			name: 'Zestaw mini',
-			price: '25zł',
-			img: miniSet,
-			properties: {
-				items: '2xS',
-			},
-		},
-		{
-			name: 'Zestaw mały',
-			price: '45zł',
-			img: smallSet,
-			properties: {
-				items: '1xM + 2xS',
-			},
-		},
-		{
-			name: 'Zestaw prezentowy',
-			price: '55zł',
-			img: giftSet,
-			properties: {
-				items: '3xM',
-			},
-		},
-		{
-			name: 'Zestaw duży',
-			price: '100zł',
-			img: bigSet,
-			properties: {
-				items: '3xM + 4xS',
-			},
-		},
-		{
-			name: 'Zestaw PREMIUM',
-			price: '110zł',
-			img: premiumSet,
-			properties: {
-				items: '3xM + 5xS',
-			},
-		},
-	];
+
+	const { scentedColors } = useColors();
 </script>
 
 <template>
-	<AppSection title="Oferta" class="home-offer">
-		<div class="home-offer__description">Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:</div>
+	<AppSection title="Edycja zapachowa" class="home-smell-offer">
+		<div class="home-offer__description">Wybierz ręcznie robione, pachnące świeczki z wosku sojowego:</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
 				<h3 class="part__title">Rozmiary</h3>
@@ -130,7 +59,7 @@
 						<div class="info__name">{{ size.name }}</div>
 						<div class="info__price">{{ size.price }}</div>
 						<div class="info__properties">
-							<div class="properties__property">
+							<div v-if="size.properties.burningTime" class="properties__property">
 								<icon name="fa6-solid:fire" />
 								{{ size.properties.burningTime }}
 							</div>
@@ -143,24 +72,17 @@
 				</div>
 			</div>
 			<div class="price-list__part">
-				<h3 class="part__title">Zestawy</h3>
-				<div
-					v-for="set in sets"
-					:key="set.name"
-					class="part__variant"
-				>
-					<img class="variant__img" :src="set.img" :alt="set.name" />
-					<div class="variant__info">
-						<div class="info__name">{{ set.name }}</div>
-						<div class="info__price">{{ set.price }}</div>
-						<div class="info__properties">
-							<div class="properties__property">
-								<icon name="fa6-solid:box" />
-								{{ set.properties.items }}
-							</div>
-						</div>
-					</div>
-				</div>
+				<h3 class="part__title">Zapachy i kolory</h3>
+				<ul class="part__list">
+					<li
+						v-for="color in scentedColors"
+						:key="color.id"
+						class="list__item"
+					>
+						<div class="item__sample" :style="{ '--bg': color.color }" />
+						{{ color.smell }} ({{ color.customName ?? color.name }})
+					</li>
+				</ul>
 			</div>
 			<div v-if="specialOffer" :id="specialOffer.id" class="price-list__part price-list__part--special">
 				<h3 class="part__title">{{ specialOffer.name }}</h3>
@@ -188,7 +110,7 @@
 </template>
 
 <style lang="scss" scoped>
-	.home-offer {
+	.home-smell-offer {
 		.home-offer__description {
 			margin-top: 20px;
 			margin-bottom: 10px;
@@ -243,6 +165,27 @@
 						.info__description {
 							margin-top: 10px;
 							font-size: 14px;
+						}
+					}
+				}
+				.part__list {
+					display: grid;
+					margin-top: 20px;
+					gap: 10px;
+					grid-template-columns: repeat(1, 1fr);
+					@media (min-width: 480px) {
+						grid-template-columns: repeat(1, 1fr);
+					}
+					.list__item {
+						display: flex;
+						align-items: center;
+						font-size: 0.875rem;
+						gap: 5px;
+						.item__sample {
+							width: 30px;
+							height: 30px;
+							border: 1px solid $text-secondary;
+							background-color: var(--bg);
 						}
 					}
 				}
