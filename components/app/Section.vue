@@ -16,6 +16,7 @@
 <style lang="scss" scoped>
 	.app-section {
 		margin: 40px 0;
+		scroll-margin-top: 80px;
 		.app-section__title {
 			font-size: 2rem;
 			text-align: center;

@@ -44,7 +44,7 @@
 </script>
 
 <template>
-	<AppSection title="Edycja zapachowa" class="home-smell-offer">
+	<AppSection id="edycja-zapachowa" title="Edycja zapachowa" class="home-smell-offer">
 		<div class="home-offer__description">Wybierz ręcznie robione, pachnące świeczki z wosku sojowego:</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">

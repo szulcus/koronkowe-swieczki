@@ -45,12 +45,6 @@
 			margin-top: 20px;
 			margin-bottom: 10px;
 			text-align: center;
-			&:deep(a) {
-				text-decoration: underline;
-				@include hover {
-					text-decoration: none;
-				}
-			}
 		}
 		.home-contact__form {
 			display: grid;

@@ -115,8 +115,10 @@
 </script>
 
 <template>
-	<AppSection title="Oferta" class="home-offer">
-		<div class="home-offer__description">Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:</div>
+	<AppSection id="oferta" title="Oferta" class="home-offer">
+		<div class="home-offer__description">
+			Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:<br />
+		</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
 				<h3 class="part__title">Rozmiary</h3>
