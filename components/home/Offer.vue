@@ -21,7 +21,7 @@
 	const sizes: SizeOfferVariant[] = [
 		{
 			name: 'Rozmiar S',
-			price: '13zł',
+			price: '13zł / 15zł',
 			img: sSize,
 			properties: {
 				burningTime: '4 godziny',
@@ -31,7 +31,7 @@
 		},
 		{
 			name: 'Rozmiar M',
-			price: '20zł',
+			price: '20zł / 25zł',
 			img: mSize,
 			properties: {
 				burningTime: '9 godzin',
@@ -73,7 +73,7 @@
 	const sets: SetOfferVariant[] = [
 		{
 			name: 'Zestaw mini',
-			price: '25zł',
+			price: '20zł / 25zł',
 			img: miniSet,
 			properties: {
 				items: '2xS',
@@ -81,7 +81,7 @@
 		},
 		{
 			name: 'Zestaw mały',
-			price: '45zł',
+			price: '35zł / 45zł',
 			img: smallSet,
 			properties: {
 				items: '1xM + 2xS',
@@ -89,7 +89,7 @@
 		},
 		{
 			name: 'Zestaw prezentowy',
-			price: '55zł',
+			price: '45zł / 60zł',
 			img: giftSet,
 			properties: {
 				items: '3xM',
@@ -97,7 +97,7 @@
 		},
 		{
 			name: 'Zestaw duży',
-			price: '100zł',
+			price: '85zł / 100zł',
 			img: bigSet,
 			properties: {
 				items: '3xM + 4xS',
@@ -105,7 +105,7 @@
 		},
 		{
 			name: 'Zestaw PREMIUM',
-			price: '110zł',
+			price: '100zł / 120zł',
 			img: premiumSet,
 			properties: {
 				items: '3xM + 5xS',
