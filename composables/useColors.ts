@@ -12,11 +12,11 @@ export default () => {
 		{ id: '0000', color: '#F9F4E0', name: 'Natural', customName: 'Lniany', available: true, smell: 'Życie jest piękne' },
 		{ id: '0099', color: '#000000', name: 'Czarny', available: true, smell: 'Drzewo Sandałowe + Cedr' },
 		{ id: '0346', color: '#692506', name: 'Brązowy', available: true, smell: 'Gorąca czekolada' },
-		{ id: '0347', color: '#DE6528', name: 'Rudy', available: false },
+		{ id: '0347', color: '#DE6528', name: 'Rudy', available: true, smell: 'Pieczone Jabłko' },
 		{ id: '0350', color: '#BDC4A9', name: 'Zielonoszary', customName: 'Seledynowy', available: true },
 		{ id: '0351', color: '#CCA14B', name: 'Złoty', available: true, smell: 'Palo Santo' },
 		{ id: '0352', color: '#DB302D', name: 'Czerwony', available: true },
-		{ id: '0353', color: '#A7363F', name: 'Bordowy', available: true, smell: 'Wanilia + Wiśnia' },
+		{ id: '0353', color: '#A7363F', name: 'Bordowy', available: true, smell: 'Grzane Wino' },
 		{ id: '0354', color: '#CCC9C1', name: 'Jasnoszary', customName: 'Siwy', available: true },
 		{ id: '0355', color: '#3B3E65', name: 'Granatowy', available: true },
 		{ id: '0356', color: '#F9EFBE', name: 'Jasnożółty', customName: 'Cytrynowy', available: true },
@@ -37,9 +37,9 @@ export default () => {
 		{ id: '1815', color: '#C9C7C5', name: 'Beżowoszary', available: false },
 		{ id: '1588B', color: '#F5E2FC', name: 'New|jasny fioletowy', available: false },
 		{ id: '1626A', color: '#D9E2FF', name: 'New|jasny niebieskoszary', available: false },
-		{ id: '1635C', color: '#B4C6CF', name: 'New|szaromorski', available: false },
+		{ id: '1635C', color: '#B4C6CF', name: 'New|szaromorski', customName: 'Szaromorski', available: true, smell: 'Boskie Ziele' },
 		{ id: '1698A', color: '#EAFFBF', name: 'New|jasny groszkowy', available: false },
-		{ id: '1782B', color: '#FCF3E8', name: 'New|perłowe ecru', available: false },
+		{ id: '1782B', color: '#FCF3E8', name: 'New|perłowe ecru', customName: 'Perłowy', available: true, smell: 'Piernik' },
 	];
 	const availableColors = colors.filter((color) => color.available);
 	const scentedColors = availableColors.filter((color) => color.smell);

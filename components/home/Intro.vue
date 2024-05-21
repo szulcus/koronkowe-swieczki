@@ -6,9 +6,9 @@
 	<div class="home-intro">
 		<img class="intro__logo" src="~/assets/images/logo.svg" alt="Koronkowe Świeczki Logo" />
 		<p class="intro__content">
-		 Z miłością, pasją i sercem szydełkuję eleganckie, stylowe ubranka do świeczek. Wykonuję je z bawełny merceryzowanej. Można ich używać wielokrotnie. Do każdego stworzonego przeze mnie produktu dołączam świeczkę wykonaną z wosku roślinnego lub za dopłatą ręcznie robioną świeczkę zapachową sojową.
+			Z miłością, pasją i sercem szydełkuję eleganckie, stylowe ubranka do świeczek. Wykonuję je z bawełny merceryzowanej. Można ich używać wielokrotnie. Do każdego stworzonego przeze mnie produktu dołączam świeczkę wykonaną z wosku roślinnego lub ręcznie robioną świeczkę zapachową sojową.
 			<br /><br />
-			Moja oferta obejmuje sześć rozmiarów - S i M - to tealight'y (również zapachowe). L - w szklanym naczyniu o kojącym aromacie lasu i bursztynu z pikantnymi nutami cytrusów, natomiast XL i XXL to świeczki bryłowe (bezzapachowe). PREMIUM - to moja perełka w szerokiej gamie zapachowej.
+			Moja oferta obejmuje sześć rozmiarów: S i M - to tealight'y (również sojowe, zapachowe). S - dostępny także w mini-słoiczku (sojowa, zapach do wyboru), L - w szklanym naczyniu (wosk roślinny), natomiast XL i XXL to świeczki bryłowe (bezzapachowe). PREMIUM - to moja perełka, świeczka sojowa w szerokiej gamie zapachowej (patrz poniżej).
 		</p>
 	</div>
 </template>
