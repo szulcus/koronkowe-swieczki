@@ -2,6 +2,7 @@
 	import { SizeOfferVariant, SpecialOffer } from '~/types';
 	// Sizes
 	import premiumSize from '~/assets/images/scented-sizes/premium.jpg';
+	import lSize from '~/assets/images/scented-sizes/l.jpeg';
 	import mSize from '~/assets/images/scented-sizes/m.jpg';
 	import sSize from '~/assets/images/scented-sizes/s.jpeg';
 	// Special offer
@@ -18,6 +19,14 @@
 			properties: {
 				// burningTime: '40-51 godzin',
 				dimensions: '7cm x 9cm',
+			},
+		},
+		{
+			name: 'Rzomiar L',
+			price: '50zł',
+			img: lSize,
+			properties: {
+				dimensions: '6cm x 6.5cm',
 			},
 		},
 		{
