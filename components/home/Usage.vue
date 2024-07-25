@@ -5,7 +5,7 @@
 <template>
 	<AppSection title="Zastosowanie" class="home-usage">
 		<div class="home-usage__content">
-			<p class="content__description">Małe świeczki są idealnym, gustownym podziękowaniem dla gości z okazji chrztu, komunii, bierzmowania, wieczoru panieńskiego, wesela, baby shower, urodzin, jubileuszu i wielu innych. Każda świeczka jest pakowana w eleganckie pudełko (białe, brązowe lub czarne) i jest gwarancją wyjątkowego wrażenia.</p>
+			<p class="content__description">Małe świeczki są idealnym, gustownym podziękowaniem dla gości z okazji chrztu, komunii, bierzmowania, wieczoru panieńskiego, wesela, baby shower, urodzin, jubileuszu i wielu innych. Każda świeczka jest pakowana w eleganckie pudełko (białe, brązowe lub czarne) lub (zapachowa) w celofan przewiązany kokardą z personalizowaną etykietą i jest gwarancją wyjątkowego wrażenia.</p>
 			<img class="content__img" :src="candleGiftUrl" alt="Podziękowanie dla gości" />
 			<p class="content__description">Koronkowe Świeczki są produktem premium - wysokiej jakości, tworzone z dbałością o szczegóły.<br />Rękodzieło jest zawsze dobrym wyborem!</p>
 		</div>

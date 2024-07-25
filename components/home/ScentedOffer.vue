@@ -40,11 +40,11 @@
 		},
 		{
 			name: 'Rozmiar S',
-			price: '15zł',
+			price: '15.50zł',
 			img: sSize,
 			properties: {
 				// burningTime: '12 godzin',
-				dimensions: '4cm x 1.5cm',
+				dimensions: '4.5cm x 4cm',
 			},
 		},
 	];

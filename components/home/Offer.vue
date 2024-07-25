@@ -89,7 +89,7 @@
 		},
 		{
 			name: 'Zestaw prezentowy',
-			price: '45zł / 60zł',
+			price: '45zł / 65zł',
 			img: giftSet,
 			properties: {
 				items: '3xM',
