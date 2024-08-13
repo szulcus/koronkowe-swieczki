@@ -54,7 +54,10 @@
 
 <template>
 	<AppSection id="edycja-zapachowa" title="Edycja zapachowa" class="home-smell-offer">
-		<div class="home-offer__description">Wybierz ręcznie robione, pachnące świeczki z wosku sojowego:</div>
+		<div class="home-offer__description">
+			Wybierz ręcznie robione, pachnące świeczki z wosku sojowego:<br />
+			(link do sklepu: <a href="https://soyastar.pl/" target="_blank">SoyaStar</a>)
+		</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
 				<h3 class="part__title">Rozmiary</h3>
