@@ -22,7 +22,7 @@
 			},
 		},
 		{
-			name: 'Rzomiar L',
+			name: 'Rozmiar L',
 			price: '50zł',
 			img: lSize,
 			properties: {
