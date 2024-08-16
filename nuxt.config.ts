@@ -5,7 +5,7 @@ import stylelint from 'vite-plugin-stylelint';
 import vuefireOptions from './config/vuefire';
 
 export default defineNuxtConfig({
-	ssr: false,
+	// ssr: false,
 	app: {
 		head: {
 			title: 'Koronkowe Świeczki',
