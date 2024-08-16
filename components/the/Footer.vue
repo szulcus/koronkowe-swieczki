@@ -2,7 +2,7 @@
 
 <template>
 	<footer class="the-footer">
-		Copyright &copy; 2023
+		Copyright &copy; 2022-{{ new Date().getFullYear() }}
 	</footer>
 </template>
 

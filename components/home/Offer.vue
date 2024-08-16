@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { SizeOfferVariant, SetOfferVariant, SpecialOffer } from '~/types';
+	import { type SizeOfferVariant, type SetOfferVariant, type SpecialOffer } from '~/types';
 	// Sizes
 	import sSize from '~/assets/images/sizes/s.jpeg';
 	import mSize from '~/assets/images/sizes/m.jpg';

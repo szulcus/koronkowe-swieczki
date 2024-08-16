@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { SizeOfferVariant, SpecialOffer } from '~/types';
+	import { type SizeOfferVariant, type SpecialOffer } from '~/types';
 	// Sizes
 	import premiumSize from '~/assets/images/scented-sizes/premium.jpg';
 	import lSize from '~/assets/images/scented-sizes/l.jpeg';
@@ -55,7 +55,7 @@
 <template>
 	<AppSection id="edycja-zapachowa" title="Edycja zapachowa" class="home-smell-offer">
 		<div class="home-offer__description">
-			Wybierz ręcznie robione, pachnące świeczki z wosku sojowego:<br />
+			Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:<br />
 			(link do sklepu: <a href="https://soyastar.pl/" target="_blank">SoyaStar</a>)
 		</div>
 		<div class="home-offer__price-list">

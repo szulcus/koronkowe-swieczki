@@ -1,4 +1,4 @@
-import { SpecialOffer } from '~/types';
+import { type SpecialOffer } from '~/types';
 import giftCandle from '~/assets/images/christmas-offer/gift-candle.jpeg';
 import christmasEveCandle from '~/assets/images/christmas-offer/christmas-eve-candle.jpeg';
 import santaClausSet from '~/assets/images/christmas-offer/santa-claus-set.jpg';

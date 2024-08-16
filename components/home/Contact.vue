@@ -1,10 +1,15 @@
 <script setup lang="ts">
+	import { logEvent } from 'firebase/analytics';
+
+	// Composables
+	const { analytics } = useFirebase();
+
+	// Form
 	const formData = ref<{ name: string; email: string; content: string }>({
 		name: '',
 		email: '',
 		content: '',
 	});
-
 	const submitForm = async () => {
 		try {
 			await fetch('https://submit-form.com/i4o2jBHS', {
@@ -15,10 +20,17 @@
 				},
 				body: JSON.stringify(formData.value),
 			});
-			alert('Dziękujemy!');
+			logEvent(analytics, 'form_sent', { ...formData.value });
+			alert('Dziękuję!');
+			formData.value = {
+				name: '',
+				email: '',
+				content: '',
+			};
 		}
 		catch (err) {
 			console.error('Error:', err);
+			logEvent(analytics, 'form_error', { ...formData.value });
 		}
 	};
 </script>

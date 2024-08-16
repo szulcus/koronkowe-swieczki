@@ -1,8 +1,11 @@
 // Vite plugins
 import eslint from 'vite-plugin-eslint';
 import stylelint from 'vite-plugin-stylelint';
+// Options
+import vuefireOptions from './config/vuefire';
 
 export default defineNuxtConfig({
+	ssr: false,
 	app: {
 		head: {
 			title: 'Koronkowe Świeczki',
@@ -27,6 +30,7 @@ export default defineNuxtConfig({
 	],
 	modules: [
 		'nuxt-icon',
+		['nuxt-vuefire', vuefireOptions],
 	],
 	vite: {
 		plugins: [
@@ -50,4 +54,5 @@ export default defineNuxtConfig({
 			},
 		},
 	},
+	compatibilityDate: '2024-08-16',
 });

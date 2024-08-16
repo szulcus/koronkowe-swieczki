@@ -14,6 +14,7 @@
 		<HomeContact />
 	</main>
 	<TheFooter />
+	<TheCookies />
 </template>
 
 <style scoped lang="scss">

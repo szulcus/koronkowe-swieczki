@@ -1,4 +1,4 @@
-import { SpecialOffer } from '~/types';
+import { type SpecialOffer } from '~/types';
 import valentineCandleS from '~/assets/images/valentine-offer/candle-s.jpeg';
 import valentineCandleL from '~/assets/images/valentine-offer/candle-l.jpeg';
 import valentineSetXL from '~/assets/images/valentine-offer/set-of-xl.jpeg';
