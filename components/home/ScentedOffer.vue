@@ -5,6 +5,7 @@
 	import lSize from '~/assets/images/scented-sizes/l.jpeg';
 	import mSize from '~/assets/images/scented-sizes/m.jpg';
 	import sSize from '~/assets/images/scented-sizes/s.jpeg';
+	import gadgetsSize from '~/assets/images/scented-sizes/gadgets.jpeg';
 	// Special offer
 	// import christmasOffer from '~/assets/data/christmas-offer';
 	// import grandpaOffer from '~/assets/data/grandpa-offer';
@@ -45,6 +46,15 @@
 			properties: {
 				// burningTime: '12 godzin',
 				dimensions: '4.5cm x 4cm',
+			},
+		},
+		{
+			name: 'GADŻETY',
+			price: '10zł',
+			img: gadgetsSize,
+			properties: {
+				// burningTime: '12 godzin',
+				dimensions: '4cm x 1.5cm',
 			},
 		},
 	];

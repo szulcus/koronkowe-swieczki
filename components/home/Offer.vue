@@ -21,7 +21,7 @@
 	const sizes: SizeOfferVariant[] = [
 		{
 			name: 'Rozmiar S',
-			price: '12zł / 15zł',
+			price: '10zł / 13zł',
 			img: sSize,
 			properties: {
 				burningTime: '4 godziny',
