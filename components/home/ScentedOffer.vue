@@ -10,7 +10,7 @@
 	// import christmasOffer from '~/assets/data/christmas-offer';
 	// import grandpaOffer from '~/assets/data/grandpa-offer';
 	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer = undefined as SpecialOffer | undefined;
+	const specialOffer: SpecialOffer | undefined = undefined;
 
 	const sizes: SizeOfferVariant[] = [
 		{

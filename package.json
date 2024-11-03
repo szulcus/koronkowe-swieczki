@@ -13,7 +13,6 @@
 		"eslint": "^8.36.0",
 		"eslint-plugin-jsonc": "^2.7.0",
 		"nuxt": "^3.12.4",
-		"nuxt-icon": "^0.3.3",
 		"postcss-html": "^1.5.0",
 		"sass": "^1.59.3",
 		"stylelint": "^14.0.0",
@@ -25,6 +24,7 @@
 		"vite-plugin-stylelint": "^4.3.0"
 	},
 	"dependencies": {
+		"@nuxt/icon": "^1.6.1",
 		"firebase": "^10.12.5",
 		"nuxt-vuefire": "^1.0.3",
 		"vuefire": "^3.1.24"

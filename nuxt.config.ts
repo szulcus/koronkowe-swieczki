@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 		'~/assets/styles/global.scss',
 	],
 	modules: [
-		'nuxt-icon',
+		'@nuxt/icon',
 		['nuxt-vuefire', vuefireOptions],
 	],
 	vite: {

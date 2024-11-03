@@ -13,10 +13,10 @@
 	import bigSet from '~/assets/images/sets/big.jpeg';
 	import premiumSet from '~/assets/images/sets/premium.jpg';
 	// Special offer
-	// import christmasOffer from '~/assets/data/christmas-offer';
+	import christmasOffer from '~/assets/data/christmas-offer';
 	// import grandpaOffer from '~/assets/data/grandpa-offer';
 	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer = undefined as SpecialOffer | undefined;
+	const specialOffer: SpecialOffer | undefined = christmasOffer;
 
 	const sizes: SizeOfferVariant[] = [
 		{
@@ -185,6 +185,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="price-list__warning">* cena za produkty z edycji zapachowej</div>
 		</div>
 	</AppSection>
 </template>
@@ -272,6 +273,10 @@
 						}
 					}
 				}
+			}
+			.price-list__warning {
+				margin-top: 5px;
+				font-size: 10px;
 			}
 		}
 	}
