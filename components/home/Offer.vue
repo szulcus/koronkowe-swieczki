@@ -21,7 +21,7 @@
 	const sizes: SizeOfferVariant[] = [
 		{
 			name: 'Rozmiar S',
-			price: '10zł / 13zł',
+			price: '10zł / 13zł*',
 			img: sSize,
 			properties: {
 				burningTime: '4 godziny',
@@ -31,7 +31,7 @@
 		},
 		{
 			name: 'Rozmiar M',
-			price: '20zł / 25zł',
+			price: '20zł / 25zł*',
 			img: mSize,
 			properties: {
 				burningTime: '9 godzin',
@@ -73,7 +73,7 @@
 	const sets: SetOfferVariant[] = [
 		{
 			name: 'Zestaw mini',
-			price: '20zł / 25zł',
+			price: '20zł / 25zł*',
 			img: miniSet,
 			properties: {
 				items: '2xS',
@@ -81,7 +81,7 @@
 		},
 		{
 			name: 'Zestaw mały',
-			price: '35zł / 45zł',
+			price: '35zł / 45zł*',
 			img: smallSet,
 			properties: {
 				items: '1xM + 2xS',
@@ -89,7 +89,7 @@
 		},
 		{
 			name: 'Zestaw prezentowy',
-			price: '45zł / 65zł',
+			price: '45zł / 65zł*',
 			img: giftSet,
 			properties: {
 				items: '3xM',
@@ -97,7 +97,7 @@
 		},
 		{
 			name: 'Zestaw duży',
-			price: '85zł / 100zł',
+			price: '85zł / 100zł*',
 			img: bigSet,
 			properties: {
 				items: '3xM + 4xS',
@@ -105,7 +105,7 @@
 		},
 		{
 			name: 'Zestaw PREMIUM',
-			price: '100zł / 120zł',
+			price: '100zł / 120zł*',
 			img: premiumSet,
 			properties: {
 				items: '3xM + 5xS',
@@ -164,7 +164,9 @@
 					</div>
 				</div>
 			</div>
-			<div v-if="specialOffer" :id="specialOffer.id" class="price-list__part price-list__part--special">
+		</div>
+		<div v-if="specialOffer" :id="specialOffer.id" class="home-offer__special">
+			<div class="special__part">
 				<h3 class="part__title">{{ specialOffer.name }}</h3>
 				<div
 					v-for="item in specialOffer.variants"
@@ -185,7 +187,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="price-list__warning">* cena za produkty z edycji zapachowej</div>
+			<div class="special__warning">* cena za produkty z edycji zapachowej</div>
 		</div>
 	</AppSection>
 </template>
@@ -197,15 +199,17 @@
 			margin-bottom: 10px;
 			text-align: center;
 		}
-		.home-offer__price-list {
-			display: grid;
-			margin-top: 20px;
-			gap: 40px;
-			grid-template-columns: repeat(1, 1fr);
-			@media (min-width: 900px) {
-				grid-template-columns: repeat(2, 1fr);
-			}
-			.price-list__part {
+		.home-offer__price-list,
+		.home-offer__special {
+			// display: grid;
+			// margin-top: 20px;
+			// gap: 40px;
+			// grid-template-columns: repeat(1, 1fr);
+			// @media (min-width: 900px) {
+			// 	grid-template-columns: repeat(2, 1fr);
+			// }
+			.price-list__part,
+			.special__part {
 				@include decorative-bg;
 				.part__title {
 					margin-bottom: 20px;
@@ -250,10 +254,10 @@
 					}
 				}
 			}
-			.price-list__part--special {
-				display: grid;
-				grid-column: 1 / -1;
-				grid-template-columns: repeat(1, 1fr);
+			.special__part {
+				// display: grid;
+				// grid-column: 1 / -1;
+				// grid-template-columns: repeat(1, 1fr);
 
 				// @include decorative-bg(red, rgb(red, 0.1));
 				.part__variant {
@@ -274,7 +278,19 @@
 					}
 				}
 			}
-			.price-list__warning {
+		}
+		.home-offer__price-list {
+			display: grid;
+			margin-top: 20px;
+			gap: 40px;
+			grid-template-columns: repeat(1, 1fr);
+			@media (min-width: 900px) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+		.home-offer__special {
+			margin-top: 40px;
+			.special__warning {
 				margin-top: 5px;
 				font-size: 10px;
 			}

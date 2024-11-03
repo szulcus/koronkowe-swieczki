@@ -15,7 +15,7 @@
 				{{ colorVariant.customName ?? colorVariant.name }}
 			</li>
 		</ul>
-		<div class="section__warning">*Uwaga: prezentowane kolory mogą różnić się od kolorów rzeczywistych.</div>
+		<div class="section__warning">Uwaga: prezentowane kolory mogą różnić się od kolorów rzeczywistych.</div>
 	</AppSection>
 </template>
 
