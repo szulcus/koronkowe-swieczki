@@ -7,9 +7,11 @@ import snowmanSet from '~/assets/images/christmas-offer/snowman-set.jpeg';
 import decorativeCandle from '~/assets/images/christmas-offer/decorative-candle.jpeg';
 import setOfChristmasTrees from '~/assets/images/christmas-offer/set-of-christmas-trees.jpeg';
 // import adventSet from '~/assets/images/christmas-offer/advent-set.jpg';
-import christmasPremiumSet from '~/assets/images/christmas-offer/gift-set.jpeg';
+// import christmasPremiumSet from '~/assets/images/christmas-offer/gift-set.jpeg';
 import christmasGift from '~/assets/images/christmas-offer/gift.jpeg';
 import snowflakeSet from '~/assets/images/christmas-offer/snowflake-set.jpeg';
+import premiumChristmasCandle from '~/assets/images/christmas-offer/premium.jpeg';
+import christmasEveSet from '~/assets/images/christmas-offer/christmas-eve-set.jpeg';
 
 export default {
 	name: 'Oferta bożonarodzeniowa',
@@ -22,7 +24,7 @@ export default {
 				properties: {
 					equivalent: 'Rozmiar S',
 				},
-				description: 'Mini świeczka w koronkowym ubranku koloru czerwonego lub złotego, zapakowana w stylowe czarne pudełko przewiązane czerwoną kokardką z dołączonym drewnianym napisem "Merry Christmas". Idealna jako dodatek do prezentu lub wyraz podziękowania dla klientów, pracowników, bliskich.',
+				description: 'Mini świeczka w koronkowym ubranku, koloru czerwonego lub złotego, zapakowana w stylowe czarne pudełko przewiązane czerwoną kokardką z dołączonym drewnianym napisem "Merry Christmas". Idealna jako dodatek do prezentu lub wyraz podziękowania dla klientów, pracowników, bliskich. W wersji zapachowej: ZIMOWA JAGODA (czerwona koronka), PALO SANTO (złota koronka).',
 		},
 		{
 				name: '"Thank you" - GADŻETY',
@@ -87,15 +89,15 @@ export default {
 				},
 				description: 'Zestaw złożony z trzech koronkowych świeczek rozmiaru M, w karbowanym pudełku z okienkiem, ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas". Świeczki roślinne, bezzapachowe, w dowolnym kolorze, natomiast sojowe o zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka).',
 		},
-		{
-				name: 'Zestaw PREMIUM',
-				price: '100zł',
-				img: christmasPremiumSet,
-				properties: {
-					equivalent: '3 x Rozmiar M + 5 x Rozmiar S',
-				},
-				description: 'Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek rozmiaru S w kolorze czerwonym. Bezzapachowe, roślinne. Wszystko w pięknym karbowanym pudełku z okienkiem, ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas".',
-		},
+		// {
+		// 		name: 'Zestaw PREMIUM',
+		// 		price: '100zł',
+		// 		img: christmasPremiumSet,
+		// 		properties: {
+		// 			equivalent: '3 x Rozmiar M + 5 x Rozmiar S',
+		// 		},
+		// 		description: 'Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek rozmiaru S w kolorze czerwonym. Bezzapachowe, roślinne. Wszystko w pięknym karbowanym pudełku z okienkiem, ozdobione czerwoną kokardą i dołączonym napisem "Merry Christmas".',
+		// },
 		{
 				name: 'Zestaw Śnieżynkowy',
 				price: '49zł',
@@ -108,20 +110,20 @@ export default {
 		{
 				name: 'Zestaw Wigilijny',
 				price: '85zł',
-				// img: christmasEveSet,
+				img: christmasEveSet,
 				properties: {
 					equivalent: '2 x Rozmiar L (edycja zapachowa)',
 				},
 				description: 'Dwie ręcznie robione zapachowe świece sojowe - jedna w słoiczku o zapachu GRZANE WINO, natomiast druga otulona ręcznie szydełkowaną koronką, dostępna w dwóch zapachach i dopasowanym kolorze ubranka: PIERNIK (perłowa koronka), PIECZONE JABŁKO (ruda koronka). Całość zapakowana w gustowne, eleganckie czarne pudełko, przewiązane czerwoną kokardą z napisem "Merry Christmas".',
 		},
 		{
-				name: 'Świece Bożonarodzeniowe PREMIUM',
+				name: 'Świeca Bożonarodzeniowa PREMIUM',
 				price: '80zł',
-				// img: premiumChristmasCandles,
+				img: premiumChristmasCandle,
 				properties: {
 					equivalent: 'PREMIUM (edycja zapachowa)',
 				},
-				description: 'Wyjątkowe, eleganckie sojowe świece pachnące świętami, oprawione w ręcznie szydełkowane koronki. Zapakowane pojedynczo w celofan, związane kokardą z napisem "Merry Christmas". Dostępne w świątecznych zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka).',
+				description: 'Wyjątkowe, eleganckie, sojowe, w szkle - świece pachnące świętami. Oprawione w ręcznie szydełkowane koronki. Zapakowane pojedynczo w celofan, związane kokardą z napisem "Merry Christmas". Dostępne w świątecznych zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka).',
 		},
 	],
 } as SpecialOffer;

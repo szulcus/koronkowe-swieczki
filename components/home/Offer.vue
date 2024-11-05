@@ -165,6 +165,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="home-offer__warning">* cena za produkty z edycji zapachowej</div>
 		<div v-if="specialOffer" :id="specialOffer.id" class="home-offer__special">
 			<div class="special__part">
 				<h3 class="part__title">{{ specialOffer.name }}</h3>
@@ -219,7 +220,7 @@
 				}
 				.part__variant {
 					display: flex;
-					align-items: stretch;
+					align-items: flex-start;
 					gap: 20px;
 					&:not(:last-child) {
 						margin-bottom: 20px;
@@ -288,12 +289,13 @@
 				grid-template-columns: repeat(2, 1fr);
 			}
 		}
+		.home-offer__warning,
+		.home-offer__special .special__warning {
+			margin-top: 5px;
+			font-size: 10px;
+		}
 		.home-offer__special {
 			margin-top: 40px;
-			.special__warning {
-				margin-top: 5px;
-				font-size: 10px;
-			}
 		}
 	}
 </style>
