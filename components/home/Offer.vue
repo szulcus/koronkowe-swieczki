@@ -263,6 +263,10 @@
 				// @include decorative-bg(red, rgb(red, 0.1));
 				.part__variant {
 					flex-direction: column;
+					&:not(:last-child) {
+						padding-bottom: 20px;
+						border-bottom: 1px solid rgb($text-secondary, 0.2);
+					}
 					@media (min-width: 720px) {
 						flex-direction: row;
 					}

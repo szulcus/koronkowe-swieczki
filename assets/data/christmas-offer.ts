@@ -109,7 +109,7 @@ export default {
 		},
 		{
 				name: 'Zestaw Wigilijny',
-				price: '85zł',
+				price: '89zł',
 				img: christmasEveSet,
 				properties: {
 					equivalent: '2 x Rozmiar L (edycja zapachowa)',
