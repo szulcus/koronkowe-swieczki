@@ -15,7 +15,7 @@ export default () => {
 		{ id: '0347', color: '#DE6528', name: 'Rudy', available: true, smell: 'Pieczone Jabłko' },
 		{ id: '0350', color: '#BDC4A9', name: 'Zielonoszary', customName: 'Seledynowy', available: true },
 		{ id: '0351', color: '#CCA14B', name: 'Złoty', available: true, smell: 'Palo Santo' },
-		{ id: '0352', color: '#DB302D', name: 'Czerwony', available: true },
+		{ id: '0352', color: '#DB302D', name: 'Czerwony', available: true, smell: 'Zimowa Jagoda' },
 		{ id: '0353', color: '#A7363F', name: 'Bordowy', available: true, smell: 'Grzane Wino' },
 		{ id: '0354', color: '#CCC9C1', name: 'Jasnoszary', customName: 'Siwy', available: true },
 		{ id: '0355', color: '#3B3E65', name: 'Granatowy', available: true },
