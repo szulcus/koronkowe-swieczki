@@ -13,10 +13,10 @@
 	import bigSet from '~/assets/images/sets/big.jpeg';
 	import premiumSet from '~/assets/images/sets/premium.jpg';
 	// Special offer
-	import christmasOffer from '~/assets/data/christmas-offer';
-	// import grandpaOffer from '~/assets/data/grandpa-offer';
+	// import christmasOffer from '~/assets/data/christmas-offer';
+	import grandpaOffer from '~/assets/data/grandpa-offer';
 	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer: SpecialOffer | undefined = christmasOffer;
+	const specialOffer: SpecialOffer | undefined = grandpaOffer;
 
 	const sizes: SizeOfferVariant[] = [
 		{
@@ -223,7 +223,7 @@
 					align-items: flex-start;
 					gap: 20px;
 					&:not(:last-child) {
-						margin-bottom: 20px;
+						margin-bottom: 30px;
 					}
 					.variant__img {
 						width: 150px;
@@ -264,8 +264,8 @@
 				.part__variant {
 					flex-direction: column;
 					&:not(:last-child) {
-						padding-bottom: 20px;
-						border-bottom: 1px solid rgb($text-secondary, 0.2);
+						padding-bottom: 30px;
+						border-bottom: 1px solid rgb($text-secondary, 0.3);
 					}
 					@media (min-width: 720px) {
 						flex-direction: row;

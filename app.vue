@@ -4,13 +4,14 @@
 	<TheHeader />
 	<main class="app">
 		<HomeIntro />
-		<div class="intro__new">
+		<!-- <div class="intro__new">
 			<b>NOWOŚĆ: <a href="#edycja-zapachowa">Edycja zapachowa</a><br /></b>
-		</div>
+		</div> -->
 		<HomeOffer />
 		<HomeColors />
 		<HomeScentedOffer />
 		<HomeUsage />
+		<HomeSafety />
 		<HomeContact />
 	</main>
 	<TheFooter />

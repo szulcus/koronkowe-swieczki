@@ -13,21 +13,21 @@ export default {
 	variants: [
 		{
 			name: 'Świeczka upominkowa S',
-			price: '15zł',
+			price: '12zł / 15zł*',
 			img: giftCandleS,
 			properties: {
 				equivalent: 'Rozmiar S',
 			},
-			description: 'Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem "Kochanej Babci". Idealna jako dodatek do prezentu lub wyraz miłości do Bacbi. ',
+			description: 'Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem "Kochanej Babci". Idealna jako dodatek do prezentu lub wyraz miłości do Bacbi. Również w wersji zapachowej.',
 		},
 		{
 			name: 'Świeca upominkowa L',
-			price: '25zł',
+			price: '25zł / 50zł*',
 			img: giftCandleL,
 			properties: {
 				equivalent: 'Rozmiar L',
 			},
-			description: 'Elegancka świeczka w szkle kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: np. turkusowym, bordowym, złotym, lnianym, beżowym... Zapakowana w celofan z doczepionym drewnianym napisem "Kochanej Babci".',
+			description: 'Elegancka świeczka w szkle kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: np. turkusowym, bordowym, złotym, lnianym, beżowym... Zapakowana w celofan z doczepionym drewnianym napisem "Kochanej Babci". Również w wersji zapachowej.',
 		},
 		{
 			name: 'Świeca upominkowa XL',
@@ -67,7 +67,7 @@ export default {
 		},
 		{
 			name: 'Zestaw upominkowy',
-			price: '110zł',
+			price: '100zł',
 			img: grandpaGiftSet,
 			properties: {
 				equivalent: 'Zestaw PREMIUM',

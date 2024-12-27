@@ -100,7 +100,7 @@ export default {
 		// },
 		{
 				name: 'Zestaw Śnieżynkowy',
-				price: '49zł',
+				price: '50zł',
 				img: snowflakeSet,
 				properties: {
 					equivalent: '2 x Rozmiar M (edycja zapachowa)',
