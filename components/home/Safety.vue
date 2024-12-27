@@ -44,7 +44,7 @@
 
 <template>
 	<AppSection title="Bezpieczeństwo" class="home-safety">
-		<div class="home-usage__content">
+		<div class="home-safety__content">
 			<section class="content__description">Przestrzegaj podanych zaleceń podczas korzystania z produktów:</section>
 			<section v-for="(section, sectionIndex) in safetyList" :key="sectionIndex" class="content__section">
 				<h3 class="section__title">{{ section.title }}</h3>
@@ -65,7 +65,7 @@
 <style lang="scss" scoped>
 	.home-safety {
 		@include decorative-bg;
-		.home-usage__content {
+		.home-safety__content {
 			margin-top: 20px; // 5px of decorative-bg
 			.content__description {
 				text-align: center;
