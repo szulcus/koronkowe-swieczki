@@ -5,6 +5,7 @@ import giftCandleXl from '~/assets/images/grandpa-offer/gift-candle-xl.jpeg';
 import candleWithGrandpa from '~/assets/images/grandpa-offer/candle-with-grandpa.jpeg';
 import candleWithGrandad from '~/assets/images/grandpa-offer/candle-with-grandad.jpeg';
 import flowerSet from '~/assets/images/grandpa-offer/flower-set.jpeg';
+import forGrandpaSet from '~/assets/images/grandpa-offer/for-grandpa-set.jpeg';
 import grandpaGiftSet from '~/assets/images/grandpa-offer/gift-set.jpeg';
 
 export default {
@@ -43,7 +44,7 @@ export default {
 			price: '30zł',
 			img: candleWithGrandpa,
 			properties: {
-				burningTime: 'Rozmiar XL',
+				equivalent: 'Rozmiar XL',
 			},
 			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką babci, zapakowana w celofan.',
 		},
@@ -52,7 +53,7 @@ export default {
 			price: '30zł',
 			img: candleWithGrandad,
 			properties: {
-				burningTime: 'Rozmiar XL',
+				equivalent: 'Rozmiar XL',
 			},
 			description: 'Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką dziadka, zapakowana w celofan.',
 		},
@@ -64,6 +65,15 @@ export default {
 				equivalent: '3 x Rozmiar S',
 			},
 			description: 'Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym, beżowym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem "Kochanej Babci".',
+		},
+		{
+			name: 'Zestaw "Dla Babci"',
+			price: '40zł*',
+			img: forGrandpaSet,
+			properties: {
+				equivalent: '2 x Rozmiar S',
+			},
+			description: 'Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu "Życie jest piękne" (w lnianym ubranku) i "Zimowa Jagoda" (w czerwonym ubranku). W gratisie figurka dekoracyjna: Babcia. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
 		},
 		{
 			name: 'Zestaw upominkowy',

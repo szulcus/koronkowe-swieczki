@@ -15,14 +15,14 @@
 				'Przed każdym zapaleniem skróć knot do 0,5 cm.',
 				'Nie gaś świecy, dopóki cała tafla wosku nie roztopi się równomiernie.',
 				'Całkowity czas palenia jednej sesji nie powinien przekraczać 4 godzin.',
-				'Pozostaw ok. 2 cm wosku na dnie - nie spalaj świecy do końca.',
+				'Pozostaw ok. 2 cm wosku na dnie - nie spalaj świecy do końca, by uniknąć ewentualnego pęknięcia szkła.',
 			],
 		},
 		{
 			title: 'Świeczki typu tealight',
 			items: [
 				'Służą celom dekoracyjnym lub jako próbki zapachowe, mogą być palone pod warunkiem zachowania szczególnej ostrożności.',
-				'Uważaj przy rozpalaniu, aby płomień nie zajął koronki.',
+				'Uważaj przy rozpalaniu, aby płomień nie dotknął koronki.',
 				'Korzystaj z dala od przedmiotów, które mogą łatwo zająć się ogniem.',
 				'Trzymaj w miejscu niedostępnym dla dzieci i zwierząt.',
 				'Nie zostawiaj płonącej świeczki bez nadzoru.',
@@ -47,7 +47,7 @@
 		<div class="home-safety__content">
 			<section class="content__description">Przestrzegaj podanych zaleceń podczas korzystania z produktów:</section>
 			<section v-for="(section, sectionIndex) in safetyList" :key="sectionIndex" class="content__section">
-				<h3 class="section__title">{{ section.title }}</h3>
+				<h3 class="section__title">{{ section.title }}:</h3>
 				<ul class="section__list">
 					<li
 						v-for="(item, itemIndex) in section.items"
