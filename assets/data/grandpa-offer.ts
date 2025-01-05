@@ -5,7 +5,10 @@ import giftCandleXl from '~/assets/images/grandpa-offer/gift-candle-xl.jpeg';
 import candleWithGrandpa from '~/assets/images/grandpa-offer/candle-with-grandpa.jpeg';
 import candleWithGrandad from '~/assets/images/grandpa-offer/candle-with-grandad.jpeg';
 import flowerSet from '~/assets/images/grandpa-offer/flower-set.jpeg';
-import forGrandpaSet from '~/assets/images/grandpa-offer/for-grandpa-set.jpeg';
+import petrichorSet from '~/assets/images/grandpa-offer/petrichor-set.jpeg';
+// import forGrandpaSet from '~/assets/images/grandpa-offer/for-grandpa-set.jpeg';
+import miniJarsSet from '~/assets/images/grandpa-offer/mini-jars-set.jpeg';
+import threeMSet from '~/assets/images/grandpa-offer/3m-set.jpeg';
 import grandpaGiftSet from '~/assets/images/grandpa-offer/gift-set.jpeg';
 
 export default {
@@ -67,13 +70,40 @@ export default {
 			description: 'Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym, beżowym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem "Kochanej Babci".',
 		},
 		{
-			name: 'Zestaw "Dla Babci"',
+			name: 'Zestaw PETRICHOR',
+			price: '35zł*',
+			img: petrichorSet,
+			properties: {
+				equivalent: 'Rozmiar S + zawieszka',
+			},
+			description: 'Koronkowa Świeczki Mini w słoiczku, otulona błękitną koronką oraz zawieszka sojowa - obie o zapachu "Petrichor". Niepowtarzalny zestaw zapakowany w eleganckie białe pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
+		},
+		// {
+		// 	name: 'Zestaw KOMINECZEK',
+		// 	price: '35zł*',
+		// 	img: undefined,
+		// 	properties: {
+		// 		equivalent: 'Rozmiar S + wosk do kominka',
+		// 	},
+		// 	description: 'Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu "Zimowa Jagoda" oraz urocza różyczka - wosk do kominka  o zapachu "Malina". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
+		// },
+		{
+			name: 'Zestaw MINI SŁOICZKI',
 			price: '40zł*',
-			img: forGrandpaSet,
+			img: miniJarsSet,
 			properties: {
 				equivalent: '2 x Rozmiar S',
 			},
 			description: 'Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu "Życie jest piękne" (w lnianym ubranku) i "Zimowa Jagoda" (w czerwonym ubranku). W gratisie figurka dekoracyjna: Babcia. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
+		},
+		{
+			name: 'Zestaw TRZY EMKI',
+			price: '45zł / 65zł*',
+			img: threeMSet,
+			properties: {
+				equivalent: '3 x Rozmiar M',
+			},
+			description: 'Elegancki zestaw trzech świeczek rozmiaru M roślinnych lub sojowych o zapachu "Życie jest piękne" w lnianej koronce. Umieszczone w karbowanym pudełku z okienkiem, ozdobionym złotą kokardą i dołączonym napisem "Kochanej Babci".',
 		},
 		{
 			name: 'Zestaw upominkowy',
