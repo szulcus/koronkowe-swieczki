@@ -15,7 +15,7 @@
 	const sizes: SizeOfferVariant[] = [
 		{
 			name: 'PREMIUM',
-			price: '80zł',
+			price: '85zł',
 			img: premiumSize,
 			properties: {
 				// burningTime: '40-51 godzin',
@@ -24,7 +24,7 @@
 		},
 		{
 			name: 'Rozmiar L',
-			price: '50zł',
+			price: '55zł',
 			img: lSize,
 			properties: {
 				dimensions: '6cm x 6.5cm',

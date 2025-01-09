@@ -7,6 +7,7 @@ import candleWithGrandad from '~/assets/images/grandpa-offer/candle-with-grandad
 import flowerSet from '~/assets/images/grandpa-offer/flower-set.jpeg';
 import petrichorSet from '~/assets/images/grandpa-offer/petrichor-set.jpeg';
 // import forGrandpaSet from '~/assets/images/grandpa-offer/for-grandpa-set.jpeg';
+import fireplaceSet from '~/assets/images/grandpa-offer/fireplace-set.jpeg';
 import miniJarsSet from '~/assets/images/grandpa-offer/mini-jars-set.jpeg';
 import threeMSet from '~/assets/images/grandpa-offer/3m-set.jpeg';
 import grandpaGiftSet from '~/assets/images/grandpa-offer/gift-set.jpeg';
@@ -26,7 +27,7 @@ export default {
 		},
 		{
 			name: 'Świeca upominkowa L',
-			price: '25zł / 50zł*',
+			price: '25zł / 55zł*',
 			img: giftCandleL,
 			properties: {
 				equivalent: 'Rozmiar L',
@@ -78,15 +79,15 @@ export default {
 			},
 			description: 'Koronkowa Świeczki Mini w słoiczku, otulona błękitną koronką oraz zawieszka sojowa - obie o zapachu "Petrichor". Niepowtarzalny zestaw zapakowany w eleganckie białe pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
 		},
-		// {
-		// 	name: 'Zestaw KOMINECZEK',
-		// 	price: '35zł*',
-		// 	img: undefined,
-		// 	properties: {
-		// 		equivalent: 'Rozmiar S + wosk do kominka',
-		// 	},
-		// 	description: 'Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu "Zimowa Jagoda" oraz urocza różyczka - wosk do kominka  o zapachu "Malina". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
-		// },
+		{
+			name: 'Zestaw KOMINECZEK',
+			price: '35zł*',
+			img: fireplaceSet,
+			properties: {
+				equivalent: 'Rozmiar S + wosk do kominka',
+			},
+			description: 'Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu "Zimowa Jagoda" oraz urocza różyczka - wosk do kominka  o zapachu "Malina". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
+		},
 		{
 			name: 'Zestaw MINI SŁOICZKI',
 			price: '40zł*',
