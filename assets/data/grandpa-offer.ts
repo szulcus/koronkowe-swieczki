@@ -80,7 +80,7 @@ export default {
 			description: 'Koronkowa Świeczki Mini w słoiczku, otulona błękitną koronką oraz zawieszka sojowa - obie o zapachu "Petrichor". Niepowtarzalny zestaw zapakowany w eleganckie białe pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem "Kochanej Babci".',
 		},
 		{
-			name: 'Zestaw KOMINECZEK',
+			name: 'Zestaw RÓŻYCZKA',
 			price: '35zł*',
 			img: fireplaceSet,
 			properties: {
