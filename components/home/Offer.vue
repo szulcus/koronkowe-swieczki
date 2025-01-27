@@ -14,9 +14,9 @@
 	import premiumSet from '~/assets/images/sets/premium.jpg';
 	// Special offer
 	// import christmasOffer from '~/assets/data/christmas-offer';
-	import grandpaOffer from '~/assets/data/grandpa-offer';
-	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer: SpecialOffer | undefined = grandpaOffer;
+	// import grandpaOffer from '~/assets/data/grandpa-offer';
+	import valentineOffer from '~/assets/data/valentine-offer';
+	const specialOffer: SpecialOffer | undefined = valentineOffer;
 
 	const sizes: SizeOfferVariant[] = [
 		{
