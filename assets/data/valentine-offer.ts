@@ -2,6 +2,7 @@ import { type SpecialOffer } from '~/types';
 import valentineLoveS from '~/assets/images/valentine-offer/love-s.jpeg';
 import valentineCandleS from '~/assets/images/valentine-offer/candle-s.jpeg';
 import valentineCandleL from '~/assets/images/valentine-offer/candle-l.jpeg';
+import valentineSetMiniJars from '~/assets/images/valentine-offer/set-mini-jars.jpeg';
 import valentineSetXL from '~/assets/images/valentine-offer/set-of-xl.jpeg';
 import valentineSetS from '~/assets/images/valentine-offer/set-of-s.jpeg';
 import valentineSetWithRoseS from '~/assets/images/valentine-offer/set-with-rose.jpeg';
@@ -40,11 +41,20 @@ export default {
 		{
 			name: 'Zestaw RÓŻYCZKA',
 			price: '35zł*',
-			img: valentineSetWithRoseS, //
+			img: valentineSetWithRoseS,
 			properties: {
 				equivalent: 'Rozmiar S + wosk do kominka',
 			},
 			description: 'Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu "Zimowa Jagoda" oraz urocza różyczka - wosk do kominka  o zapachu "Malina". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym czerwonym serduszkiem.',
+		},
+		{
+			name: 'Zestaw MINI SŁOICZKI',
+			price: '40zł*',
+			img: valentineSetMiniJars,
+			properties: {
+				equivalent: '2 x Rozmiar S',
+			},
+			description: 'Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu "Życie jest piękne" (w lnianym ubranku) i "Zimowa Jagoda" (w czerwonym ubranku). W gratisie ratanowe serduszko. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym czerwonym serduszkiem.',
 		},
 		{
 			name: 'Zestaw świeczek XL',
@@ -64,15 +74,6 @@ export default {
 			},
 			description: 'Inspiracja na romantyczny wieczór przy eleganckich koronkowych świeczkach lub pomysł na wyjątkowy prezent walentynkowy - zestaw składający się z sześciu czerwonych świeczek rozmiaru S - wersja bezzapachowa lub zapachowa "Zimowa Jagoda". W gratisie konfetti walentynkowe. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione metaliczną kokardą i dołączonym drewnianym napisem "Love".',
 		},
-		// {
-		// 	name: 'Zestaw MINI SŁOICZKI',
-		// 	price: '40zł*',
-		// 	// img: miniJarsSet,
-		// 	properties: {
-		// 		equivalent: '2 x Rozmiar S',
-		// 	},
-		// 	description: 'Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu "Życie jest piękne" (w lnianym ubranku) i "Zimowa Jagoda" (w czerwonym ubranku). W gratisie ratanowe serduszko. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym czerwonym serduszkiem.',
-		// },
 		// {
 		// 	name: 'Zestaw RÓŻYCZKA',
 		// 	price: '35zł*',
