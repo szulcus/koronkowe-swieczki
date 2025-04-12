@@ -8,7 +8,7 @@
 			<b>NOWOŚĆ: <a href="#edycja-zapachowa">Edycja zapachowa</a><br /></b>
 		</div> -->
 		<HomeOffer />
-		<HomeColors />
+		<!-- <HomeColors /> -->
 		<HomeScentedOffer />
 		<HomeUsage />
 		<HomeSafety />

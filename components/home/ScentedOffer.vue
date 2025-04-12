@@ -18,7 +18,8 @@
 			price: '85zł',
 			img: premiumSize,
 			properties: {
-				// burningTime: '40-51 godzin',
+				burningTime: '~50 godzin',
+				weight: '200g',
 				dimensions: '7cm x 9cm',
 			},
 		},
@@ -27,6 +28,8 @@
 			price: '55zł',
 			img: lSize,
 			properties: {
+				burningTime: '~25 godzin',
+				weight: '100g',
 				dimensions: '6cm x 6.5cm',
 			},
 		},
@@ -35,7 +38,8 @@
 			price: '25zł',
 			img: mSize,
 			properties: {
-				// burningTime: '9 godzin',
+				burningTime: '~9 godzin',
+				weight: '45g',
 				dimensions: '6.5cm x 2.5cm',
 			},
 		},
@@ -44,7 +48,8 @@
 			price: '15.50zł',
 			img: sSize,
 			properties: {
-				// burningTime: '12 godzin',
+				burningTime: '~5 godzin',
+				weight: '20g',
 				dimensions: '4.5cm x 4cm',
 			},
 		},
@@ -53,7 +58,8 @@
 			price: '10zł',
 			img: gadgetsSize,
 			properties: {
-				// burningTime: '12 godzin',
+				burningTime: '~4 godziny',
+				weight: '15g',
 				dimensions: '4cm x 1.5cm',
 			},
 		},
@@ -81,13 +87,17 @@
 						<div class="info__name">{{ size.name }}</div>
 						<div class="info__price">{{ size.price }}</div>
 						<div class="info__properties">
+							<div v-if="size.properties.dimensions" class="properties__property">
+								<icon name="fa6-solid:ruler" />
+								{{ size.properties.dimensions }}
+							</div>
+							<div v-if="size.properties.weight" class="properties__property">
+								<icon name="fa6-solid:scale-unbalanced" />
+								{{ size.properties.weight }}
+							</div>
 							<div v-if="size.properties.burningTime" class="properties__property">
 								<icon name="fa6-solid:fire" />
 								{{ size.properties.burningTime }}
-							</div>
-							<div class="properties__property">
-								<icon name="fa6-solid:ruler" />
-								{{ size.properties.dimensions }}
 							</div>
 						</div>
 					</div>

@@ -61,7 +61,7 @@ const content: Content = {
 	offer: {
 		title: 'Oferta',
 		sizes: {
-			title: 'Rozmiary',
+			title: 'Rozmiaryy',
 			variants: [
 				{
 					name: 'Rozmiar S',

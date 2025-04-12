@@ -9,8 +9,9 @@ export interface OfferVariant {
 }
 export interface SizeOfferVariant extends OfferVariant {
 	properties: {
+		dimensions?: string;
+		weight?: string;
 		burningTime?: string;
-		dimensions: string;
 	};
 }
 export interface SetOfferVariant extends OfferVariant {
