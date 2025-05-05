@@ -10,6 +10,7 @@
 	import miniSet from '~/assets/images/sets/mini.jpeg';
 	import smallSet from '~/assets/images/sets/small.jpg';
 	import giftSet from '~/assets/images/sets/gift.jpeg';
+	import decorativeSet from '~/assets/images/sets/decorative.jpg';
 	import bigSet from '~/assets/images/sets/big.jpeg';
 	import premiumSet from '~/assets/images/sets/premium.jpg';
 	// Special offer
@@ -93,6 +94,14 @@
 			img: giftSet,
 			properties: {
 				items: '3xM',
+			},
+		},
+		{
+			name: 'Zestaw dekoracyjny',
+			price: '60zł / 70zł*',
+			img: decorativeSet,
+			properties: {
+				items: '1xM + 6 obrączek',
 			},
 		},
 		{
