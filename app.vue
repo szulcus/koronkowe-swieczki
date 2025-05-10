@@ -9,6 +9,7 @@
 		</div> -->
 		<HomeOffer />
 		<!-- <HomeColors /> -->
+		<HomeKashubianOffer />
 		<HomeScentedOffer />
 		<HomeUsage />
 		<HomeSafety />
