@@ -32,7 +32,7 @@
 
 	const sets: (SetOfferVariant & { previousPrice?: string })[] = [
 		{
-			name: 'Zestaw mini',
+			name: 'Zestaw Mini',
 			previousPrice: '20zł',
 			price: '15zł',
 			img: miniSet,
@@ -41,7 +41,7 @@
 			},
 		},
 		{
-			name: 'Zestaw mały',
+			name: 'Zestaw Mały',
 			previousPrice: '35zł',
 			price: '25zł',
 			img: smallSet,
@@ -50,7 +50,7 @@
 			},
 		},
 		{
-			name: 'Zestaw dekoracyjny',
+			name: 'Zestaw Dekoracyjny',
 			previousPrice: '60zł',
 			price: '50zł',
 			img: decorativeSet,
@@ -59,7 +59,7 @@
 			},
 		},
 		{
-			name: 'Zestaw duży',
+			name: 'Zestaw Duży',
 			previousPrice: '85zł',
 			price: '70zł',
 			img: bigSet,
@@ -72,7 +72,7 @@
 </script>
 
 <template>
-	<AppSection id="edycja-kaszubska" title="Edycja kaszubska" class="home-smell-offer">
+	<AppSection id="edycja-kaszubska" title="Edycja Kaszubska" class="home-smell-offer">
 		<div class="home-offer__description">
 			Unikalne Koronkowe Świeczki inspirowane barwami kaszubskimi, nawiązujące do bogatej kultury regionu.
 		</div>

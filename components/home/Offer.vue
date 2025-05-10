@@ -73,7 +73,7 @@
 	];
 	const sets: SetOfferVariant[] = [
 		{
-			name: 'Zestaw mini',
+			name: 'Zestaw Mini',
 			price: '20zł / 25zł*',
 			img: miniSet,
 			properties: {
@@ -81,7 +81,7 @@
 			},
 		},
 		{
-			name: 'Zestaw mały',
+			name: 'Zestaw Mały',
 			price: '35zł / 45zł*',
 			img: smallSet,
 			properties: {
@@ -89,7 +89,7 @@
 			},
 		},
 		{
-			name: 'Zestaw prezentowy',
+			name: 'Zestaw Prezentowy',
 			price: '45zł / 65zł*',
 			img: giftSet,
 			properties: {
@@ -97,7 +97,7 @@
 			},
 		},
 		{
-			name: 'Zestaw dekoracyjny',
+			name: 'Zestaw Dekoracyjny',
 			price: '60zł / 70zł*',
 			img: decorativeSet,
 			properties: {
@@ -105,7 +105,7 @@
 			},
 		},
 		{
-			name: 'Zestaw duży',
+			name: 'Zestaw Duży',
 			price: '85zł / 100zł*',
 			img: bigSet,
 			properties: {

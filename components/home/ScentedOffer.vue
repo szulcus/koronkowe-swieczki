@@ -69,7 +69,7 @@
 </script>
 
 <template>
-	<AppSection id="edycja-zapachowa" title="Edycja zapachowa" class="home-smell-offer">
+	<AppSection id="edycja-zapachowa" title="Edycja Zapachowa" class="home-smell-offer">
 		<div class="home-offer__description">
 			Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:<br />
 			(link do sklepu: <a href="https://soyastar.pl/" target="_blank">SoyaStar</a>)
