@@ -34,7 +34,7 @@
 				</div>
 				<div v-if="props.variant.properties.items" class="properties__property">
 					<icon name="fa6-solid:box" />
-					{{ props.variant.properties.burningTime }}
+					{{ props.variant.properties.items }}
 				</div>
 				<div v-if="props.variant.properties.equivalent" class="properties__property">
 					<icon name="fa6-solid:arrow-up-right-from-square" />
