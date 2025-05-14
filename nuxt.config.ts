@@ -7,6 +7,9 @@ import mdcOptions from './config/mdc';
 
 export default defineNuxtConfig({
 	ssr: true,
+	nitro: {
+		preset: 'netlify',
+	},
 	app: {
 		head: {
 			title: 'Koronkowe Świeczki',

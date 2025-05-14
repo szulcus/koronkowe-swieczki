@@ -1,0 +1,4 @@
+const Safety_vue_vue_type_style_index_0_scoped_54b477db_lang = '@charset "UTF-8";.home-safety[data-v-54b477db]{background-color:#e5d9c8;padding:20px;position:relative}.home-safety[data-v-54b477db]:after{border:1px solid #73685a;content:"";top:0;right:0;bottom:0;left:0;pointer-events:none;position:absolute;transform:translate(5px,-5px)}.home-safety .home-safety__content[data-v-54b477db]{margin-top:20px}.home-safety .home-safety__content[data-v-54b477db] .content__description p{text-align:center}.home-safety .home-safety__content[data-v-54b477db] h3{font-size:1.25rem;margin:20px 0 10px}.home-safety .home-safety__content[data-v-54b477db] ul{list-style-type:none;padding-left:20px}.home-safety .home-safety__content[data-v-54b477db] ul li:before{content:"\u{1F525} "}';
+
+export { Safety_vue_vue_type_style_index_0_scoped_54b477db_lang as S };
+//# sourceMappingURL=entry-styles-10.mjs-DguNsLwp.mjs.map
