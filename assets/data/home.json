@@ -1,0 +1,860 @@
+[
+  {
+    "id": "dev",
+    "kashubian_offer_sets": [
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2F9hcwi_mini.jpg?alt=media&token=da9a91e2-1670-4ece-90b4-6237a75af808",
+        "properties": {
+          "items": "2xS"
+        },
+        "previous_price": "20zł",
+        "name": "Zestaw Mini",
+        "price": "15zł"
+      },
+      {
+        "name": "Zestaw Mały",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2Fzt722_small.jpg?alt=media&token=9d38975f-8cf6-4263-8806-3a4a0e3e6134",
+        "previous_price": "35zł",
+        "price": "25zł",
+        "properties": {
+          "items": "1xM + 2xS"
+        }
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2Fpimtt_decorative.jpg?alt=media&token=a277647a-c0c1-4fe0-a009-f57d89d49eff",
+        "price": "50zł",
+        "properties": {
+          "items": "1xM + 6 obrączek"
+        },
+        "name": "Zestaw Dekoracyjny",
+        "previous_price": "60zł"
+      },
+      {
+        "name": "Zestaw Duży",
+        "price": "70zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2F9uk7i_big.jpg?alt=media&token=3f62fa69-cf6c-476c-a9e0-3bb9f11d46d5",
+        "previous_price": "85zł",
+        "properties": {
+          "items": "3xM + 4xS\n"
+        }
+      }
+    ],
+    "offer_sizes": [
+      {
+        "price": "10zł / 13zł*",
+        "name": "Rozmiar S",
+        "properties": {
+          "burning_time": "4 godziny",
+          "dimensions": "4cm x 1.5cm"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2F6bcsx_s.jpeg?alt=media&token=f767e4e3-7c1d-4aa9-82d9-45fd6e9451e0"
+      },
+      {
+        "price": "20zł / 25zł*",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fda1nd_m.jpg?alt=media&token=e9b64d2a-f626-4e2b-b22a-ebd441c04810",
+        "properties": {
+          "dimensions": "6cm x 2.5cm",
+          "burning_time": "9 godzin"
+        },
+        "name": "Rozmiar M"
+      },
+      {
+        "price": "25zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fkr9um_l.jpg?alt=media&token=ac15e2a3-4534-4adc-9310-40902aea69df",
+        "properties": {
+          "burning_time": "12 godzin",
+          "dimensions": "5cm x 5cm\n"
+        },
+        "name": "Rozmiar L"
+      },
+      {
+        "name": "Rozmiar XL",
+        "price": "30zł",
+        "properties": {
+          "dimensions": "5.5cm x 8cm",
+          "burning_time": "15 godzin"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fwcchw_xl.jpeg?alt=media&token=295b05fb-9fe0-47a3-90bd-5c116e825a3b"
+      },
+      {
+        "price": "35zł",
+        "properties": {
+          "burning_time": "6cm x 10cm",
+          "dimensions": "30 godzin"
+        },
+        "name": "Rozmiar XXL",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Flbjbv_xxl.jpeg?alt=media&token=8342f6f5-e63d-4b40-ac33-724955f5a8bf"
+      }
+    ],
+    "special_offer": "special_offers/oferta-na-dzien-babci",
+    "offer_sets": [
+      {
+        "name": "Zestaw Mini",
+        "price": "20zł / 25zł*",
+        "properties": {
+          "items": "2xS"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fqg68y_mini.jpeg?alt=media&token=bd53091f-76c4-413a-acb5-2f515c205760"
+      },
+      {
+        "properties": {
+          "items": "1xM + 2xS"
+        },
+        "name": "Zestaw Mały",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fgg969_small.jpg?alt=media&token=7514c6f0-8bee-4d44-888b-162d7adc3300",
+        "price": "35zł / 45zł*"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fx91vb_gift.jpeg?alt=media&token=78aea48f-acea-432d-a79a-caf2c3fa5825",
+        "price": "45zł / 65zł*",
+        "name": "Zestaw prezentowy",
+        "properties": {
+          "items": "3xM"
+        }
+      },
+      {
+        "properties": {
+          "items": "1xM + 6 obrączek"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2F1l0k6_decorative.jpg?alt=media&token=dbc7291b-a9fe-408e-807c-b467c2a84ae4",
+        "name": "Zestaw dekoracyjny",
+        "price": "60zł / 70zł*"
+      },
+      {
+        "price": "85zł / 100zł*",
+        "name": "Zestaw duży",
+        "properties": {
+          "items": "3xM + 4xS"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fs2iti_big.jpeg?alt=media&token=90b14cc8-feea-406f-8422-00d873645f98"
+      },
+      {
+        "name": "Zestaw PREMIUM",
+        "price": "100zł / 120zł*",
+        "properties": {
+          "items": "3xM + 5xS"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2F0spwk_premium.jpg?alt=media&token=babac279-de8c-499b-b85b-da2d8d053d54"
+      }
+    ],
+    "scented_offer": {
+      "sizes": "Rozmiary",
+      "colors": "Korory",
+      "description": "Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:\n(link do sklepu: SoyaStar)",
+      "title": "Edycja zapachowa"
+    },
+    "contact": {
+      "description": "Zapraszam do kontaktu poprzez \\[Facebooka\\](<https://www.facebook.com/profile.php?id=100089067432296>), \\[Instagrama\\](<https://www.instagram.com/koronkowe_swieczki>), lub formularz kontaktowy poniżej.\\\nZ niecierpliwością czekam na Twoją wiadomość!",
+      "labels": {
+        "email": "Email",
+        "name": "Nazwa",
+        "message": "Twoja wiadomość",
+        "submit": "Wyślij"
+      },
+      "title": "Kontakt"
+    },
+    "kashubian_offer_sizes": [
+      {
+        "name": "Rpzmiar L",
+        "properties": {
+          "dimensions": "5cm x 5cm",
+          "burning_time": "~12 godzin"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2F2v5bb_l.jpg?alt=media&token=d679475e-e6ef-4aa6-a0e4-3dd3410a3c0a",
+        "price": "15zł",
+        "previous_price": "25zł"
+      },
+      {
+        "previous_price": "30zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/kashubian-offer%2Fsizes%2Fbpheq_xl.jpg?alt=media&token=c3ed6e09-905e-4749-b250-8806efcb30f2",
+        "price": "25zł",
+        "name": "Rozmiar XL",
+        "properties": {
+          "dimensions": "5.5cm x 8cm",
+          "burning_time": "~15 godzin"
+        }
+      }
+    ],
+    "intro": {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/fifh5_logo.svg?alt=media&token=ab4fc6a7-b608-4883-84e4-b5a98807cfdc",
+      "content": "Z miłością, pasją i sercem tworzę eleganckie, stylowe ubranka - koronki na świeczki. Każde z nich wykonuję ręcznie, szydełkując z wysokiej jakości, merceryzowanej bawełny polskiej marki Ariadna. Do każdego produktu dołączam świeczkę wykonaną z wosku roślinnego lub ręcznie robioną świecę sojową polskiej marki SoyaStar.\n\nMoja oferta obejmuje sześć rozmiarów świeczek:\n\n- S i M - klasyczne tealighty,\n- S w mini-słoiczku - świeczka sojowa 20g z wybranym zapachem,\n- L - świeczka w szklanym naczyniu (wosk roślinny - bezzapachowy lub sojowy 100g - zapachowy),\n- XL i XXL - świeczki bryłowe (bezzapachowe),\n- PREMIUM - świeczka sojowa 200g w szerokiej gamie zapachów (zobacz poniżej).\n\nZapachowe świece sojowe w ręcznie szydełkowanych koronkach - to wyjątkowe połączenie rękodzieła z elegancją i subtelnym zapachem.\n\nKażda świeca z tej linii jest starannie dobrana do ręcznie wykonanej koronki, która nadaje jej unikatowy charakter. To idealny wybór na prezent lub jako stylowy dodatek do wnętrza."
+    },
+    "usage": {
+      "summary": "Koronkowe Świeczki są produktem premium - wysokiej jakości, tworzone z dbałością o szczegóły.\nRękodzieło jest zawsze dobrym wyborem!",
+      "title": "Podziękowania",
+      "description": "Małe świeczki są idealnym, gustownym podziękowaniem dla gości z okazji chrztu, komunii, bierzmowania, wieczoru panieńskiego, wesela, baby shower, urodzin, jubileuszu i wielu innych. Każda świeczka jest pakowana w eleganckie pudełko (białe, brązowe lub czarne) lub (zapachowa) w celofan przewiązany kokardą z personalizowaną etykietą i jest gwarancją wyjątkowego wrażenia."
+    },
+    "scented_offer_sizes": [
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/scented-offer%2Fsizes%2Fn43gc_premium.jpg?alt=media&token=3666dc89-fef3-40c2-b07d-0a28bc2cea5d",
+        "properties": {
+          "weight": "200g",
+          "burning_time": "~50 godzin",
+          "dimensions": "7cm x 9cm"
+        },
+        "price": "85zł",
+        "name": "PREMIUM"
+      },
+      {
+        "properties": {
+          "weight": "100g",
+          "burning_time": "~25 godzin",
+          "dimensions": "6cm x 6.5cm"
+        },
+        "price": "55zł",
+        "name": "Rozmiar L",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/scented-offer%2Fsizes%2F6uc2d_l.jpeg?alt=media&token=cb2c223e-3951-4bbf-9cfa-169279a99eff"
+      },
+      {
+        "name": "Rozmiar M",
+        "price": "25zł",
+        "properties": {
+          "dimensions": "6.5cm x 2.5cm",
+          "burning_time": "~9 godzin",
+          "weight": "45g"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/scented-offer%2Fsizes%2Fhtqwm_m.jpg?alt=media&token=8d425e8f-fd20-49cb-96a3-c082ba03c50b"
+      },
+      {
+        "properties": {
+          "dimensions": "4.5cm x 4cm",
+          "weight": "20g",
+          "burning_time": "~5 godzin"
+        },
+        "price": "15.50zł",
+        "name": "Rozmiar S",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/scented-offer%2Fsizes%2Fbtkwm_s.jpeg?alt=media&token=1e7a7731-5991-45b2-8da3-17070efe3404"
+      },
+      {
+        "price": "10zł",
+        "name": "GADŻETY",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/scented-offer%2Fsizes%2Fxdkaw_gadgets.jpeg?alt=media&token=55d6388a-d8ca-434d-804d-51c1f35803dd",
+        "properties": {
+          "dimensions": "4cm x 1.5cm",
+          "weight": "15g",
+          "burning_time": "~4 godziny"
+        }
+      }
+    ],
+    "test_reference": {
+      "id": "3V9ieEsjNDaY0jHIQg3z",
+      "path": "home"
+    },
+    "kashubian_offer": {
+      "description": "Unikalne Koronkowe Świeczki inspirowane barwami kaszubskimi, nawiązujące do bogatej kultury regionu.\n",
+      "title": "Edycja kaszubska",
+      "sets": "Zestawy",
+      "sizes": "Rozmiary"
+    },
+    "offer": {
+      "description": "Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:",
+      "sizes": "Rozmiary",
+      "title": "Oferta",
+      "footnote": "cena za produkty z edycji zapachowej",
+      "sets": "Zestawy"
+    },
+    "colors": [
+      {
+        "available": true,
+        "name": "Biały",
+        "custom_name": null,
+        "smell": "Bezzapachowy",
+        "color": "#FFFFFF",
+        "id": "0400"
+      },
+      {
+        "id": "0000",
+        "smell": "Życie jest piękne",
+        "name": "Natural",
+        "available": true,
+        "color": "#F9F4E0",
+        "custom_name": "Lniany"
+      },
+      {
+        "available": true,
+        "smell": "Drzewo Sandałowe + Cedr",
+        "name": "Czarny",
+        "color": "#000000",
+        "id": "0099"
+      },
+      {
+        "color": "#692506",
+        "id": "0346",
+        "available": true,
+        "smell": "Gorąca czekolada",
+        "name": "Brązowy"
+      },
+      {
+        "name": "Rudy",
+        "available": true,
+        "id": "0347",
+        "color": "#DE6528",
+        "smell": "Pieczone Jabłko"
+      },
+      {
+        "color": "#BDC4A9",
+        "name": "Zielonoszary",
+        "custom_name": "Seledynowy",
+        "id": "0350",
+        "available": true
+      },
+      {
+        "color": "#CCA14B",
+        "available": true,
+        "id": "0351",
+        "name": "Złoty",
+        "smell": "Palo Santo"
+      },
+      {
+        "id": "0352",
+        "available": true,
+        "smell": "Zimowa Jagoda",
+        "name": "Czerwony",
+        "color": "#DB302D"
+      },
+      {
+        "name": "Bordowy",
+        "available": true,
+        "color": "#A7363F",
+        "smell": "Grzane Wino",
+        "id": "0353"
+      },
+      {
+        "id": "0354",
+        "available": true,
+        "name": "Jasnoszary",
+        "custom_name": "Siwy",
+        "color": "#CCC9C1"
+      },
+      {
+        "smell": "Męski wieczór",
+        "color": "#3B3E65",
+        "available": true,
+        "id": "0355",
+        "name": "Granatowy"
+      },
+      {
+        "smell": "Księżycowy ogród",
+        "color": "#F9EFBE",
+        "available": true,
+        "custom_name": "Cytrynowy",
+        "name": "Jasnożółty",
+        "id": "0356"
+      },
+      {
+        "color": "#DBB1AE",
+        "custom_name": "Różowy",
+        "name": "Wrzosowy",
+        "available": true,
+        "id": "0358"
+      },
+      {
+        "smell": "Petrichor",
+        "available": true,
+        "color": "#A1C5CE",
+        "id": "0359",
+        "name": "Błękitny",
+        "custom_name": "Niebieski"
+      },
+      {
+        "id": "0360",
+        "name": "Żółty",
+        "color": "#ffe750",
+        "available": true
+      },
+      {
+        "id": "0361",
+        "available": true,
+        "color": "#ED9144",
+        "smell": "Ciasto Dyniowe",
+        "name": "Pomarańczowy"
+      },
+      {
+        "available": true,
+        "smell": "Łąka Kwietna",
+        "color": "#CBC650",
+        "id": "0362",
+        "custom_name": "Limonkowy",
+        "name": "Groszkowy"
+      },
+      {
+        "id": "0363",
+        "name": "Niebieski",
+        "available": true,
+        "color": "#64ADD0",
+        "custom_name": "Chabrowy"
+      },
+      {
+        "color": "#B63058",
+        "name": "Biskupi",
+        "available": true,
+        "smell": "Malina",
+        "custom_name": "Malinowy",
+        "id": "0364"
+      },
+      {
+        "id": "0365",
+        "smell": "Różowy Cukier",
+        "name": "Jasny wrzos",
+        "available": true,
+        "custom_name": "Różowy pastelowy",
+        "color": "#F3D9D3"
+      },
+      {
+        "color": "#FF4059",
+        "id": "0367",
+        "name": "Malinowy",
+        "available": false
+      },
+      {
+        "smell": "Kwiat Piwonii",
+        "id": "0368",
+        "available": true,
+        "name": "Fioletowy",
+        "color": "#7F4A82"
+      },
+      {
+        "available": true,
+        "name": "Ciemnozielony",
+        "custom_name": "Zielony",
+        "id": "0369",
+        "color": "#295E18"
+      },
+      {
+        "color": "#FCEAB6",
+        "name": "Beżowy",
+        "available": true,
+        "smell": "Złoto Bałtyku",
+        "id": "0370"
+      },
+      {
+        "id": "1642",
+        "name": "Brudny turkusowy",
+        "available": true,
+        "custom_name": "Turkusowy",
+        "color": "#329B91"
+      },
+      {
+        "id": "1754",
+        "available": false,
+        "color": "#FAE6D2",
+        "name": "Jasny łososiowy"
+      },
+      {
+        "available": false,
+        "name": "Beżowoszary",
+        "color": "#C9C7C5",
+        "id": "1815"
+      },
+      {
+        "custom_name": "Fioletowy pastelowy",
+        "smell": "Lawendowe pole",
+        "available": true,
+        "color": "#F5E2FC",
+        "name": "New|jasny fioletowy",
+        "id": "1588B"
+      },
+      {
+        "name": "New|jasny niebieskoszary",
+        "color": "#D9E2FF",
+        "available": false,
+        "id": "1626A"
+      },
+      {
+        "smell": "Boskie Ziele",
+        "id": "1635C",
+        "available": true,
+        "color": "#B4C6CF",
+        "custom_name": "Szaromorski",
+        "name": "New|szaromorski"
+      },
+      {
+        "available": false,
+        "name": "New|jasny groszkowy",
+        "id": "1698A",
+        "color": "#EAFFBF"
+      },
+      {
+        "name": "New|perłowe ecru",
+        "smell": "Piernik",
+        "custom_name": "Perłowy",
+        "color": "#FCF3E8",
+        "available": true,
+        "id": "1782B"
+      }
+    ],
+    "safety": {
+      "description": "Przestrzegaj podanych zaleceń podczas korzystania z produktów:",
+      "content": "### Świeca bryłowa, ozdobna, wolnostojąca:\n\n- Służy celom dekoracyjnym, ale może być palona pod warunkiem zachowania ostrożności.\n\n- Nie spalaj jej poniżej wysokości koronki.\n\n- Zawsze upewnij się, że świeca znajduje się w bezpiecznym miejscu i nie jest narażona na przeciągi.\n\n### Świeca sojowa w szkle:\n\n- Umieść świecę w stabilnym, bezpiecznym miejscu, z dala od dzieci i zwierząt.\n- Przed każdym zapaleniem skróć knot do 0,5 cm.\n- Nie gaś świecy, dopóki cała tafla wosku nie roztopi się równomiernie.\n- Całkowity czas palenia jednej sesji nie powinien przekraczać 4 godzin.\n- Pozostaw ok. 2 cm wosku na dnie - nie spalaj świecy do końca, by uniknąć ewentualnego pęknięcia szkła.\n\n### Świeczki typu tealight:\n\n- Służą celom dekoracyjnym lub jako próbki zapachowe, mogą być palone pod warunkiem zachowania szczególnej ostrożności.\n- Uważaj przy rozpalaniu, aby płomień nie dotknął koronki.\n- Korzystaj z dala od przedmiotów, które mogą łatwo zająć się ogniem.\n- Trzymaj w miejscu niedostępnym dla dzieci i zwierząt.\n- Nie zostawiaj płonącej świeczki bez nadzoru.\n- Płomień należy gasić, zduszając go. Nie gaś świecy dmuchnięciem.\n\n### Ogólne zasady bezpieczeństwa:\n\n- Nigdy nie pozostawiaj palącej się świecy bez nadzoru.\n- Trzymaj świecę z dala od łatwopalnych przedmiotów, dzieci i zwierząt.\n- Zwróć uwagę, aby płomień nie zajął ozdobnej koronki.\n- Nie przenoś świecy, gdy jest odpalona.",
+      "title": "Bezpieczeństwo"
+    }
+  },
+  {
+    "id": "prod",
+    "test_reference": {
+      "id": "3V9ieEsjNDaY0jHIQg3z",
+      "path": "home"
+    },
+    "scented_offer": {
+      "colors": "Kolory",
+      "sizes": "Rozmiary",
+      "description": "Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:\n(link do sklepu: SoyaStar)",
+      "title": "Edycja zapachowa"
+    },
+    "colors": [
+      {
+        "available": true,
+        "smell": "Bezzapachowy",
+        "color": "#FFFFFF",
+        "custom_name": null,
+        "id": "0400",
+        "name": "Biały"
+      },
+      {
+        "available": true,
+        "smell": "Życie jest piękne",
+        "id": "0000",
+        "name": "Natural",
+        "custom_name": "Lniany",
+        "color": "#F9F4E0"
+      },
+      {
+        "id": "0099",
+        "name": "Czarny",
+        "color": "#000000",
+        "available": true,
+        "smell": "Drzewo Sandałowe + Cedr"
+      },
+      {
+        "color": "#692506",
+        "smell": "Gorąca czekolada",
+        "available": true,
+        "name": "Brązowy",
+        "id": "0346"
+      },
+      {
+        "id": "0347",
+        "color": "#DE6528",
+        "smell": "Pieczone Jabłko",
+        "name": "Rudy",
+        "available": true
+      },
+      {
+        "id": "0350",
+        "custom_name": "Seledynowy",
+        "color": "#BDC4A9",
+        "available": true,
+        "name": "Zielonoszary"
+      },
+      {
+        "smell": "Palo Santo",
+        "color": "#CCA14B",
+        "name": "Złoty",
+        "available": true,
+        "id": "0351"
+      },
+      {
+        "color": "#DB302D",
+        "name": "Czerwony",
+        "smell": "Zimowa Jagoda",
+        "available": true,
+        "id": "0352"
+      },
+      {
+        "smell": "Grzane Wino",
+        "color": "#A7363F",
+        "name": "Bordowy",
+        "available": true,
+        "id": "0353"
+      },
+      {
+        "available": true,
+        "id": "0354",
+        "color": "#CCC9C1",
+        "custom_name": "Siwy",
+        "name": "Jasnoszary"
+      },
+      {
+        "name": "Granatowy",
+        "smell": "Męski wieczór",
+        "color": "#3B3E65",
+        "available": true,
+        "id": "0355"
+      },
+      {
+        "available": true,
+        "name": "Jasnożółty",
+        "smell": "Księżycowy ogród",
+        "custom_name": "Cytrynowy",
+        "id": "0356",
+        "color": "#F9EFBE"
+      },
+      {
+        "name": "Wrzosowy",
+        "available": true,
+        "color": "#DBB1AE",
+        "id": "0358",
+        "custom_name": "Różowy"
+      },
+      {
+        "color": "#A1C5CE",
+        "smell": "Petrichor",
+        "name": "Błękitny",
+        "custom_name": "Niebieski",
+        "id": "0359",
+        "available": true
+      },
+      {
+        "id": "0360",
+        "available": true,
+        "color": "#ffe750",
+        "name": "Żółty"
+      },
+      {
+        "available": true,
+        "color": "#ED9144",
+        "name": "Pomarańczowy",
+        "id": "0361",
+        "smell": "Ciasto Dyniowe"
+      },
+      {
+        "available": true,
+        "id": "0362",
+        "smell": "Łąka Kwietna",
+        "color": "#CBC650",
+        "custom_name": "Limonkowy",
+        "name": "Groszkowy"
+      },
+      {
+        "custom_name": "Chabrowy",
+        "name": "Niebieski",
+        "id": "0363",
+        "available": true,
+        "color": "#64ADD0"
+      },
+      {
+        "smell": "Malina",
+        "available": true,
+        "name": "Biskupi",
+        "id": "0364",
+        "custom_name": "Malinowy",
+        "color": "#B63058"
+      },
+      {
+        "id": "0365",
+        "name": "Jasny wrzos",
+        "color": "#F3D9D3",
+        "smell": "Różowy Cukier",
+        "available": true,
+        "custom_name": "Różowy pastelowy"
+      },
+      {
+        "id": "0367",
+        "available": false,
+        "name": "Malinowy",
+        "color": "#FF4059"
+      },
+      {
+        "available": true,
+        "id": "0368",
+        "name": "Fioletowy",
+        "color": "#7F4A82",
+        "smell": "Kwiat Piwonii"
+      },
+      {
+        "name": "Ciemnozielony",
+        "available": true,
+        "custom_name": "Zielony",
+        "id": "0369",
+        "color": "#295E18"
+      },
+      {
+        "id": "0370",
+        "smell": "Złoto Bałtyku",
+        "available": true,
+        "name": "Beżowy",
+        "color": "#FCEAB6"
+      },
+      {
+        "available": true,
+        "id": "1642",
+        "name": "Brudny turkusowy",
+        "custom_name": "Turkusowy",
+        "color": "#329B91"
+      },
+      {
+        "available": false,
+        "color": "#FAE6D2",
+        "name": "Jasny łososiowy",
+        "id": "1754"
+      },
+      {
+        "id": "1815",
+        "color": "#C9C7C5",
+        "name": "Beżowoszary",
+        "available": false
+      },
+      {
+        "name": "New|jasny fioletowy",
+        "custom_name": "Fioletowy pastelowy",
+        "available": true,
+        "smell": "Lawendowe pole",
+        "color": "#F5E2FC",
+        "id": "1588B"
+      },
+      {
+        "id": "1626A",
+        "name": "New|jasny niebieskoszary",
+        "available": false,
+        "color": "#D9E2FF"
+      },
+      {
+        "name": "New|szaromorski",
+        "color": "#B4C6CF",
+        "id": "1635C",
+        "available": true,
+        "smell": "Boskie Ziele",
+        "custom_name": "Szaromorski"
+      },
+      {
+        "id": "1698A",
+        "available": false,
+        "color": "#EAFFBF",
+        "name": "New|jasny groszkowy"
+      },
+      {
+        "id": "1782B",
+        "color": "#FCF3E8",
+        "available": true,
+        "custom_name": "Perłowy",
+        "name": "New|perłowe ecru",
+        "smell": "Piernik"
+      }
+    ],
+    "offer_sizes": [
+      {
+        "name": "Rozmiar S",
+        "price": "10zł / 13zł*",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2F6bcsx_s.jpeg?alt=media&token=f767e4e3-7c1d-4aa9-82d9-45fd6e9451e0",
+        "properties": {
+          "dimensions": "4cm x 1.5cm",
+          "burning_time": "4 godziny"
+        }
+      },
+      {
+        "name": "Rozmiar M",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fda1nd_m.jpg?alt=media&token=e9b64d2a-f626-4e2b-b22a-ebd441c04810",
+        "price": "20zł / 25zł*",
+        "properties": {
+          "dimensions": "6cm x 2.5cm",
+          "burning_time": "9 godzin"
+        }
+      },
+      {
+        "price": "25zł",
+        "name": "Rozmiar L",
+        "properties": {
+          "burning_time": "12 godzin",
+          "dimensions": "5cm x 5cm\n"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fkr9um_l.jpg?alt=media&token=ac15e2a3-4534-4adc-9310-40902aea69df"
+      },
+      {
+        "properties": {
+          "dimensions": "5.5cm x 8cm",
+          "burning_time": "15 godzin"
+        },
+        "price": "30zł",
+        "name": "Rozmiar XL",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Fwcchw_xl.jpeg?alt=media&token=295b05fb-9fe0-47a3-90bd-5c116e825a3b"
+      },
+      {
+        "price": "35zł",
+        "properties": {
+          "burning_time": "6cm x 10cm",
+          "dimensions": "30 godzin"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsizes%2Flbjbv_xxl.jpeg?alt=media&token=8342f6f5-e63d-4b40-ac33-724955f5a8bf",
+        "name": "Rozmiar XXL"
+      }
+    ],
+    "intro": {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/fifh5_logo.svg?alt=media&token=ab4fc6a7-b608-4883-84e4-b5a98807cfdc",
+      "content": "Z miłością, pasją i sercem tworzę eleganckie, stylowe ubranka - koronki na świeczki. Każde z nich wykonuję ręcznie, szydełkując z wysokiej jakości, merceryzowanej bawełny polskiej marki Ariadna. Do każdego produktu dołączam świeczkę wykonaną z wosku roślinnego lub ręcznie robioną świecę sojową polskiej marki SoyaStar.\n\nMoja oferta obejmuje sześć rozmiarów świeczek:\n\n- S i M - klasyczne tealighty,\n- S w mini-słoiczku - świeczka sojowa 20g z wybranym zapachem,\n- L - świeczka w szklanym naczyniu (wosk roślinny - bezzapachowy lub sojowy 100g - zapachowy),\n- XL i XXL - świeczki bryłowe (bezzapachowe),\n- PREMIUM - świeczka sojowa 200g w szerokiej gamie zapachów (zobacz poniżej).\n\nZapachowe świece sojowe w ręcznie szydełkowanych koronkach - to wyjątkowe połączenie rękodzieła z elegancją i subtelnym zapachem.\n\nKażda świeca z tej linii jest starannie dobrana do ręcznie wykonanej koronki, która nadaje jej unikatowy charakter. To idealny wybór na prezent lub jako stylowy dodatek do wnętrza."
+    },
+    "offer_sets": [
+      {
+        "name": "Zestaw Mini",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fqg68y_mini.jpeg?alt=media&token=bd53091f-76c4-413a-acb5-2f515c205760",
+        "price": "20zł / 25zł*",
+        "properties": {
+          "items": "2xS"
+        }
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fgg969_small.jpg?alt=media&token=7514c6f0-8bee-4d44-888b-162d7adc3300",
+        "name": "Zestaw Mały",
+        "price": "35zł / 45zł*",
+        "properties": {
+          "items": "1xM + 2xS"
+        }
+      },
+      {
+        "name": "Zestaw prezentowy",
+        "price": "45zł / 65zł*",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fx91vb_gift.jpeg?alt=media&token=78aea48f-acea-432d-a79a-caf2c3fa5825",
+        "properties": {
+          "items": "3xM"
+        }
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2F1l0k6_decorative.jpg?alt=media&token=dbc7291b-a9fe-408e-807c-b467c2a84ae4",
+        "price": "60zł / 70zł*",
+        "properties": {
+          "items": "1xM + 6 obrączek"
+        },
+        "name": "Zestaw dekoracyjny"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2Fs2iti_big.jpeg?alt=media&token=90b14cc8-feea-406f-8422-00d873645f98",
+        "price": "85zł / 100zł*",
+        "properties": {
+          "items": "3xM + 4xS"
+        },
+        "name": "Zestaw duży"
+      },
+      {
+        "properties": {
+          "items": "3xM + 5xS"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/offer%2Fsets%2F0spwk_premium.jpg?alt=media&token=babac279-de8c-499b-b85b-da2d8d053d54",
+        "name": "Zestaw PREMIUM",
+        "price": "100zł / 120zł*"
+      }
+    ],
+    "kashubian_offer": {
+      "title": "Edycja kaszubska",
+      "sets": "Zestawy",
+      "sizes": "Rozmiary",
+      "description": "Unikalne Koronkowe Świeczki inspirowane barwami kaszubskimi, nawiązujące do bogatej kultury regionu.\n"
+    },
+    "safety": {
+      "content": "### Świeca bryłowa, ozdobna, wolnostojąca:\n\n- Służy celom dekoracyjnym, ale może być palona pod warunkiem zachowania ostrożności.\n\n- Nie spalaj jej poniżej wysokości koronki.\n\n- Zawsze upewnij się, że świeca znajduje się w bezpiecznym miejscu i nie jest narażona na przeciągi.\n\n### Świeca sojowa w szkle:\n\n- Umieść świecę w stabilnym, bezpiecznym miejscu, z dala od dzieci i zwierząt.\n- Przed każdym zapaleniem skróć knot do 0,5 cm.\n- Nie gaś świecy, dopóki cała tafla wosku nie roztopi się równomiernie.\n- Całkowity czas palenia jednej sesji nie powinien przekraczać 4 godzin.\n- Pozostaw ok. 2 cm wosku na dnie - nie spalaj świecy do końca, by uniknąć ewentualnego pęknięcia szkła.\n\n### Świeczki typu tealight:\n\n- Służą celom dekoracyjnym lub jako próbki zapachowe, mogą być palone pod warunkiem zachowania szczególnej ostrożności.\n- Uważaj przy rozpalaniu, aby płomień nie dotknął koronki.\n- Korzystaj z dala od przedmiotów, które mogą łatwo zająć się ogniem.\n- Trzymaj w miejscu niedostępnym dla dzieci i zwierząt.\n- Nie zostawiaj płonącej świeczki bez nadzoru.\n- Płomień należy gasić, zduszając go. Nie gaś świecy dmuchnięciem.\n\n### Ogólne zasady bezpieczeństwa:\n\n- Nigdy nie pozostawiaj palącej się świecy bez nadzoru.\n- Trzymaj świecę z dala od łatwopalnych przedmiotów, dzieci i zwierząt.\n- Zwróć uwagę, aby płomień nie zajął ozdobnej koronki.\n- Nie przenoś świecy, gdy jest odpalona.",
+      "description": "Przestrzegaj podanych zaleceń podczas korzystania z produktów:",
+      "title": "Bezpieczeństwo"
+    },
+    "contact": {
+      "description": "Zapraszam do kontaktu poprzez \\[Facebooka\\](<https://www.facebook.com/profile.php?id=100089067432296>), \\[Instagrama\\](<https://www.instagram.com/koronkowe_swieczki>), lub formularz kontaktowy poniżej.\\\nZ niecierpliwością czekam na Twoją wiadomość!",
+      "title": "Kontakt",
+      "labels": {}
+    },
+    "offer": {
+      "sets": "Zestawy",
+      "description": "Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:",
+      "footnote": "cena za produkty z edycji zapachowej",
+      "title": "Oferta",
+      "sizes": "Rozmiary"
+    },
+    "usage": {}
+  }
+]

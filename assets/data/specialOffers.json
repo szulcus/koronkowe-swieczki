@@ -1,0 +1,339 @@
+[
+  {
+    "id": "oferta-bozonarodzeniowa",
+    "name": "Oferta bożonarodzeniowa",
+    "variants": [
+      {
+        "description": "Mini świeczka w koronkowym ubranku, koloru czerwonego lub złotego, zapakowana w stylowe czarne pudełko przewiązane czerwoną kokardką z dołączonym drewnianym napisem \"Merry Christmas\". Idealna jako dodatek do prezentu lub wyraz podziękowania dla klientów, pracowników, bliskich. W wersji zapachowej: ZIMOWA JAGODA (czerwona koronka), PALO SANTO (złota koronka).",
+        "price": "12zł / 15zł*",
+        "name": "Świeczka Upominkowa",
+        "active": true,
+        "properties": {
+          "equivalent": "Rozmiar S"
+        },
+        "equivalent": ".",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fh71st_gift-candle.jpeg?alt=media&token=05c16d0a-11ec-41c5-9dd7-1066700c96ee"
+      },
+      {
+        "properties": {
+          "equivalent": "Rozmiar S (edycja zapachowa)"
+        },
+        "active": true,
+        "name": "\"Thank you\" - GADŻETY",
+        "price": "10zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fp77fv_gadgets.jpg?alt=media&token=775bdb2c-e7d7-4ff3-89c1-c3a83363028a",
+        "equivalent": ".",
+        "description": "Pachnące podziękowania dla pracowników, klientów, gości lub dodatki do upominków świątecznych - sojowe mini świeczuszki zapakowane w przezroczystą folię z nadrukiem \"Thank you\". Do wyboru zapachy świąteczne: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka)."
+      },
+      {
+        "name": "Świeca Wigilijna",
+        "price": "25zł / 50zł*",
+        "description": "Świeca w szkle, pachnąca świętami: z wosku roślinnego z delikatnymi nutami cytrusów, z kojącą wonią lasu i bursztynu; w ubranku czerwonym, zielonym, lnianym, beżowym. Świeca sojowa dostępna w zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka). Zapakowane w celofan z delikatnymi akcentami świątecznymi, takimi jak gwiazdki, choinki, kokarda z nadrukiem \"Merry Christmas\".",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F9zonf_christmas-eve-candle.jpeg?alt=media&token=44af2c8f-947f-4206-a411-e404ecfb638a",
+        "active": true,
+        "properties": {
+          "equivalent": "Rozmiar L"
+        },
+        "equivalent": "."
+      },
+      {
+        "equivalent": ".",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Ftvhwa_santa-claus-set.jpg?alt=media&token=dc74824d-79da-4f04-9169-b65963bd7874",
+        "active": true,
+        "price": "30zł",
+        "properties": {
+          "equivalent": "2 x Rozmiar S"
+        },
+        "description": "Dwie urocze świeczuszki w kształcie choinki oraz Mikołajka, każda w zimowym koronkowym sweterku (lnianym i czerwonym). Zapakowane w przezroczysty celofan i przewiązanym napisem \"Merry Christmas\".",
+        "name": "Zestaw Mikołajkowy"
+      },
+      {
+        "description": "Dwie urocze świeczuszki w kształcie szyszki oraz bałwanka, każda w zimowym koronkowym sweterku (lnianym i czerwonym). Zapakowane w przezroczysty celofan i przewiązanym napisem \"Merry Christmas\".",
+        "price": "30zł",
+        "active": true,
+        "properties": {
+          "equivalent": "2 x Rozmiar S"
+        },
+        "name": "Zestaw Bałwankowy",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fdq8js_snowman-set.jpeg?alt=media&token=a797382e-a684-40d3-b0f3-26429b8f43a4",
+        "equivalent": "."
+      },
+      {
+        "name": "Świeca Stroikowa",
+        "active": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Foc83x_decorative-candle.jpeg?alt=media&token=cd3c308e-8610-4554-84b3-008d0e744cb3",
+        "price": "30zł",
+        "description": "Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym ubrankiem. Dostępna w kolorach: złotym, czerwonym lub zielonym. Umieszczona na drewnianej podstawie z dołączonym (również drewnianym) napisem \"Merry Christmas\", zapakowana w celofan, przewiązana kokardą.",
+        "equivalent": ".",
+        "properties": {
+          "equivalent": "Rozmiar XL"
+        }
+      },
+      {
+        "equivalent": ".",
+        "description": "Trzy urocze świeczuszki w kształcie choinki, każda w śnieżnym koronkowym sweterku. Zapakowane w przezroczysty celofan i przewiązane napisem \"Merry Christmas\".",
+        "name": "Zestaw Choinek",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F3cuqg_set-of-christmas-trees.jpeg?alt=media&token=bee11fc2-791c-41c5-827c-b439b20ca8c4",
+        "price": "45zł",
+        "active": true,
+        "properties": {
+          "equivalent": "3 x Rozmiar S"
+        }
+      },
+      {
+        "properties": {
+          "equivalent": "3 x Rozmiar M"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F44tkr_gift.jpeg?alt=media&token=b334a264-79f7-4a19-9204-e34d0410884c",
+        "equivalent": ".",
+        "active": true,
+        "description": "Zestaw złożony z trzech koronkowych świeczek rozmiaru M, w karbowanym pudełku z okienkiem, ozdobione czerwoną kokardą i dołączonym napisem \"Merry Christmas\". Świeczki roślinne, bezzapachowe, w dowolnym kolorze, natomiast sojowe o zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka).",
+        "name": "Zestaw Upominkowy",
+        "price": "45zł / 65zł*"
+      },
+      {
+        "properties": {
+          "equivalent": "3 x Rozmiar M + 5 x Rozmiar S"
+        },
+        "price": "100zł",
+        "description": "Pomysł na elegancki i oryginalny prezent - zestaw składający się z trzech koronkowych świeczek rozmiaru M w kolorze lnu oraz pięciu koronkowych świeczek rozmiaru S w kolorze czerwonym. Bezzapachowe, roślinne. Wszystko w pięknym karbowanym pudełku z okienkiem, ozdobione czerwoną kokardą i dołączonym napisem \"Merry Christmas\".",
+        "active": false,
+        "img": null,
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F6aiux_gift-set.jpeg?alt=media&token=4cbb1f62-2630-4df4-9b19-7b52fbacac34",
+        "equivalent": ".",
+        "name": "Zestaw PREMIUM"
+      },
+      {
+        "name": "Zestaw Śnieżynkowy",
+        "price": "50zł",
+        "active": true,
+        "equivalent": ".",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F6wehx_snowflake-set.jpeg?alt=media&token=da20feab-c828-4a97-96db-bbf3e3cf4ddb",
+        "description": "Połączenie sojowej świeczki Śnieżynka o zapachu PIERNIK oraz koronkowej świeczki rozmiaru M o jednym z trzech zapachów: PIERNIK (perłowa koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka). Zestaw w pudełku z okienkiem ozdobionym czerwoną kokardą i dołączonym napisem \"Merry Christmas\".",
+        "properties": {
+          "equivalent": "2 x Rozmiar M (edycja zapachowa)"
+        }
+      },
+      {
+        "description": "Dwie ręcznie robione zapachowe świece sojowe - jedna w słoiczku o zapachu GRZANE WINO, natomiast druga otulona ręcznie szydełkowaną koronką, dostępna w dwóch zapachach i dopasowanym kolorze ubranka: PIERNIK (perłowa koronka), PIECZONE JABŁKO (ruda koronka). Całość zapakowana w gustowne, eleganckie czarne pudełko, przewiązane czerwoną kokardą z napisem \"Merry Christmas\".",
+        "properties": {
+          "equivalent": "2 x Rozmiar L (edycja zapachowa)"
+        },
+        "name": "Zestaw Wigilijny",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fpjqts_christmas-eve-set.jpeg?alt=media&token=37042a54-2dc4-4bf1-a42e-41968863337c",
+        "equivalent": ".",
+        "active": true,
+        "price": "89zł"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Ff71wo_premium.jpeg?alt=media&token=e9b2eaea-9d94-4677-b76c-93f5bc109ad5",
+        "equivalent": ".",
+        "name": "Świeca Bożonarodzeniowa PREMIUM",
+        "active": true,
+        "description": "Wyjątkowe, eleganckie, sojowe, w szkle - świece pachnące świętami. Oprawione w ręcznie szydełkowane koronki. Zapakowane pojedynczo w celofan, związane kokardą z napisem \"Merry Christmas\". Dostępne w świątecznych zapachach: ZIMOWA JAGODA (czerwona koronka), PIERNIK (perłowa koronka), PALO SANTO (złota koronka), PIECZONE JABŁKO (ruda koronka), GRZANE WINO (bordowa koronka), DRZEWO SANDAŁOWE I CEDR (czarna koronka).",
+        "price": "80zł",
+        "properties": {
+          "equivalent": "PREMIUM (edycja zapachowa)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "oferta-na-dzien-babci",
+    "name": "Oferta na Dzień Babci",
+    "variants": [
+      {
+        "properties": {
+          "equivalent": "Rozmiar S"
+        },
+        "price": "12zł / 15zł*",
+        "equivalent": ".",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Ff8n39_gift-candle-s.jpeg?alt=media&token=c3838c18-722f-43fb-8eeb-8e99bf95895a",
+        "active": true,
+        "name": "Świeczka upominkowa S",
+        "description": "Mini świeczuszka w koronkowym ubranku (kolor na życzenie), zapakowana w stylowe brązowe pudełko przewiązane piękną kokardką z dołączonym drewnianym napisem \"Kochanej Babci\". Idealna jako dodatek do prezentu lub wyraz miłości do Bacbi. Również w wersji zapachowej."
+      },
+      {
+        "active": true,
+        "equivalent": ".",
+        "name": "Świeca upominkowa L",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fp7tpt_gift-candle-l.jpeg?alt=media&token=06bd753c-26b4-416c-8aae-561e5bc45481",
+        "description": "Elegancka świeczka w szkle kojącą wonią lasu i bursztynu oraz nutami cytrusów. Dostępna w różnych kolorach ubranek: np. turkusowym, bordowym, złotym, lnianym, beżowym... Zapakowana w celofan z doczepionym drewnianym napisem \"Kochanej Babci\". Również w wersji zapachowej.",
+        "price": "25zł / 55zł*",
+        "properties": {
+          "equivalent": "Rozmiar L"
+        }
+      },
+      {
+        "equivalent": ".",
+        "properties": {
+          "equivalent": "Rozmiar XL"
+        },
+        "description": "Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym ubrankiem. Dostępna we wszystkich kolorach. Umieszczona na drewnianej podstawie z dołączonym (również drewnianym) napisem \"Kochanej Babci\", zapakowana w celofan.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fxy95m_gift-candle-xl.jpeg?alt=media&token=4214d7ae-c501-4d83-a067-ef8400a4b8e2",
+        "active": true,
+        "name": "Świeca upominkowa XL",
+        "price": "30zł"
+      },
+      {
+        "name": "Świeca z babcią",
+        "properties": {
+          "equivalent": "Rozmiar XL"
+        },
+        "price": "30zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fdrs6o_petrichor-set.jpeg?alt=media&token=01413f10-f42f-431d-9d7f-28b96eb119da",
+        "active": true,
+        "description": "Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką babci, zapakowana w celofan.",
+        "equivalent": "."
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F25bgg_candle-with-grandad.jpeg?alt=media&token=59652d3a-000f-4fef-802a-81b83e467e90",
+        "price": "30zł",
+        "equivalent": ".",
+        "description": "Elegancka bryłowa świeca owinięta ręcznie szydełkowanym koronkowym złotym ubrankiem. Umieszczona na drewnianej podstawie z dołączoną figurką dziadka, zapakowana w celofan.",
+        "properties": {
+          "equivalent": "Rozmiar XL"
+        },
+        "name": "Świeca z dziadkiem",
+        "active": true
+      },
+      {
+        "name": "Zestaw kwiatowy",
+        "properties": {
+          "equivalent": "3 x Rozmiar S"
+        },
+        "equivalent": ".",
+        "price": "30zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fa8pl5_flower-set.jpeg?alt=media&token=e1df2fd7-a396-4057-aa5b-c5456e212eed",
+        "description": "Trzy urocze świeczuszki w kształcie kwiatów, każda w ręcznie szydełkowanym koronkowym, beżowym sweterku. Zapakowane w przezroczysty celofan i przewiązanym napisem \"Kochanej Babci\".",
+        "active": true
+      },
+      {
+        "active": true,
+        "properties": {
+          "equivalent": "Rozmiar S + zawieszka"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fxnkc7_petrichor-set.jpeg?alt=media&token=dafaa3b7-49a7-4a6d-9ccf-e7c3431c7bfc",
+        "description": "Koronkowa Świeczki Mini w słoiczku, otulona błękitną koronką oraz zawieszka sojowa - obie o zapachu \"Petrichor\". Niepowtarzalny zestaw zapakowany w eleganckie białe pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem \"Kochanej Babci\".",
+        "name": "Zestaw PETRICHOR",
+        "price": "35zł*"
+      },
+      {
+        "properties": {
+          "equivalent": "Rozmiar S + wosk do kominka"
+        },
+        "description": "Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu \"Zimowa Jagoda\" oraz urocza różyczka - wosk do kominka  o zapachu \"Malina\". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem \"Kochanej Babci\".",
+        "price": "35zł*",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F4xhzs_fireplace-set.jpeg?alt=media&token=a7252676-989d-408f-ae12-ad6a1455836e",
+        "active": true,
+        "name": "Zestaw RÓŻYCZKA"
+      },
+      {
+        "properties": {
+          "equivalent": "2 x Rozmiar S"
+        },
+        "description": "Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu \"Życie jest piękne\" (w lnianym ubranku) i \"Zimowa Jagoda\" (w czerwonym ubranku). W gratisie figurka dekoracyjna: Babcia. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym drewnianym napisem \"Kochanej Babci\".",
+        "price": "40zł*",
+        "name": "Zestaw MINI SŁOICZKI",
+        "active": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fzykp1_mini-jars-set.jpeg?alt=media&token=6dcd14d3-ad88-4b0e-aef4-b11a553d0b8d"
+      },
+      {
+        "price": "45zł / 65zł*",
+        "name": "Zestaw TRZY EMKI",
+        "properties": {
+          "equivalent": "3 x Rozmiar M"
+        },
+        "description": "Elegancki zestaw trzech świeczek rozmiaru M roślinnych lub sojowych o zapachu \"Życie jest piękne\" w lnianej koronce. Umieszczone w karbowanym pudełku z okienkiem, ozdobionym złotą kokardą i dołączonym napisem \"Kochanej Babci\".",
+        "active": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fyrhxa_3m-set.jpeg?alt=media&token=62e0838e-4b1c-4a4c-87fe-e3bc339c3334"
+      },
+      {
+        "price": "100zł",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fukmjo_gift-set.jpeg?alt=media&token=2bd40a4b-a6a3-4d8e-94ff-8093cf8e7ad0",
+        "name": "Zestaw upominkowy",
+        "properties": {
+          "equivalent": "Zestaw PREMIUM"
+        },
+        "description": "Pomysł na elegancki i ekskluzywny prezent dla Babci  - zestaw składający się z trzech koronkowych świeczek rozmiaru M oraz pięciu koronkowych świeczek w rozmiarze S. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione elegancką kokardą i dołączonym drewnianym napisem \"Kochanej Babci\".",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "oferta-walentynkowa",
+    "variants": [
+      {
+        "description": "Mini świeczuszka w lnianym koronkowym ubranku bezzapachowa lub sojowa o zapachu \"Życie jest piękne\" oraz ażurowe czerwone serduszko, zapakowane w celofan przewiązane kokardką z dołączonym drewnianym napisem \"Love\". Piękny gadżet - dodatek do prezentu lub eleganckie wyznanie miłości.",
+        "properties": {
+          "equivalent": "Rozmiar S"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fghg38_love-s.jpeg?alt=media&token=f2ed49bf-14d9-4d47-8baa-2e79c3b8696b",
+        "name": "Świeczka \"Love\" S",
+        "price": "12zł / 15zł*",
+        "active": true
+      },
+      {
+        "description": "Czerwona mini świeczuszka w koronkowym ubranku bezzapachowa lub sojowa o zapachu \"Zimowa Jagoda\" zapakowana w stylowe czarne pudełko przewiązane metaliczną czerwoną kokardką z dołączonym drewnianym napisem \"Love\". Idealna jako dodatek do prezentu lub skromny wyraz miłości - \"Zostań moją Walentynką\".",
+        "active": true,
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fdxd53_candle-s.jpeg?alt=media&token=6844d569-ea93-43ef-8702-f972e41887fa",
+        "properties": {
+          "equivalent": "Rozmiar S"
+        },
+        "price": "10zł / 13zł*",
+        "name": "Świeczka upominkowa S"
+      },
+      {
+        "description": "Elegancka świeczka w szkle kojącą wonią lasu i bursztynu oraz nutami cytrusów lub sojowa o zapachu \"Zimowa Jagoda\". Dostępna w czerwonym ubranku. Ustawiona na drewienku, zapakowana w celofan z doczepionym sercem z napisem \"Love\".",
+        "active": true,
+        "price": "25zł / 55zł*",
+        "name": "Świeca upominkowa L",
+        "properties": {
+          "equivalent": "Rozmiar L"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fe1pfz_candle-l.jpeg?alt=media&token=f156a68d-a279-4532-b6bd-9c6d4f113f41"
+      },
+      {
+        "price": "35zł*",
+        "active": true,
+        "properties": {
+          "equivalent": "Rozmiar S + wosk do kominka"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F3f4tb_set-with-rose.jpeg?alt=media&token=67a5ee5f-16aa-4a94-b428-9758a01cb059",
+        "description": "Czerwona Koronkowa Świeczka Mini w słoiczku o zapachu \"Zimowa Jagoda\" oraz urocza różyczka - wosk do kominka o zapachu \"Malina\". Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym czerwonym serduszkiem.",
+        "name": "Zestaw RÓŻYCZKA"
+      },
+      {
+        "name": "Zestaw MINI SŁOICZKI",
+        "description": "Dwie Koronkowe Świeczki Mini w słoiczkach, o zapachu \"Życie jest piękne\" (w lnianym ubranku) i \"Zimowa Jagoda\" (w czerwonym ubranku). W gratisie ratanowe serduszko. Zapakowane w pudełko z okienkiem, przewiązane złotą kokardą z dołączonym czerwonym serduszkiem.",
+        "price": "40zł*",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F3mcyv_set-mini-jars.jpeg?alt=media&token=bb253080-db62-422b-ae72-c1155b0f713d",
+        "properties": {
+          "equivalent": "2 x Rozmiar S"
+        },
+        "active": true
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2F9864f_set-of-xl.jpeg?alt=media&token=d99adb48-5c1e-4a60-b56b-cc30eda33c06",
+        "name": "Zestaw świeczek XL",
+        "properties": {
+          "equivalent": "2 x Rozmiar XL"
+        },
+        "active": true,
+        "price": "60zł",
+        "description": "Dwie eleganckie bryłowe świece owinięte ręcznie szydełkowanym koronkowym ubrankiem w czerwonym kolorze miłości. Umieszczone na metalowej czarnej podstawie z dołączonym (również drewnianym) napisem \"Love\", zapakowana w celofan i doczepionym czerwonym sercem love."
+      },
+      {
+        "properties": {
+          "equivalent": "6 x Rozmiar S"
+        },
+        "name": "Zestaw świeczek S",
+        "image": "https://firebasestorage.googleapis.com/v0/b/koronkowe-swieczki.firebasestorage.app/o/special-offer%2Fnhz9w_set-of-s.jpeg?alt=media&token=fa24bc0f-cd85-44e5-a23f-03ccf2a992d9",
+        "price": "50zł / 65zł*",
+        "active": true,
+        "description": "Inspiracja na romantyczny wieczór przy eleganckich koronkowych świeczkach lub pomysł na wyjątkowy prezent walentynkowy - zestaw składający się z sześciu czerwonych świeczek rozmiaru S - wersja bezzapachowa lub zapachowa \"Zimowa Jagoda\". W gratisie konfetti walentynkowe. Wszystko w pięknym karbowanym pudełku z okienkiem ozdobione metaliczną kokardą i dołączonym drewnianym napisem \"Love\"."
+      }
+    ],
+    "name": "Oferta Walentynkowa"
+  }
+]

@@ -4,6 +4,7 @@ export * from './api';
 export interface OfferVariant {
 	name: string;
 	price: string;
+	previousPrice?: string;
 	img: string;
 	description?: string;
 }

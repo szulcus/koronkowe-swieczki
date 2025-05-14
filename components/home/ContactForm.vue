@@ -33,14 +33,16 @@
 			logEvent(analytics, 'form_error', { ...formData.value });
 		}
 	};
+
+	const rootStore = useRootStore();
 </script>
 
 <template>
-	<form class="contact-form" @submit.prevent="submitForm">
-		<input v-model="formData.name" class="form__input" required name="name" type="text" placeholder="Nazwa" />
-		<input v-model="formData.email" class="form__input" required name="email" type="email" placeholder="Email" />
-		<textarea v-model="formData.content" class="form__textarea" required rows="10" name="content" placeholder="Twoja wiadomość" />
-		<button class="form__submit" type="submit">Wyślij</button>
+	<form v-if="rootStore.homeData" class="contact-form" @submit.prevent="submitForm">
+		<input v-model="formData.name" class="form__input" required name="name" type="text" :placeholder="rootStore.homeData.contact.labels.name" />
+		<input v-model="formData.email" class="form__input" required name="email" type="email" :placeholder="rootStore.homeData.contact.labels.email" />
+		<textarea v-model="formData.content" class="form__textarea" required rows="10" name="content" :placeholder="rootStore.homeData.contact.labels.message" />
+		<button class="form__submit" type="submit">{{ rootStore.homeData.contact.labels.submit }}</button>
 	</form>
 </template>
 

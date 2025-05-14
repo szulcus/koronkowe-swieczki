@@ -1,11 +1,12 @@
 // Vite plugins
-import eslint from 'vite-plugin-eslint';
-import stylelint from 'vite-plugin-stylelint';
+// import eslint from 'vite-plugin-eslint';
+// import stylelint from 'vite-plugin-stylelint';
 // Options
 import vuefireOptions from './config/vuefire';
+import mdcOptions from './config/mdc';
 
 export default defineNuxtConfig({
-	// ssr: false,
+	ssr: true,
 	app: {
 		head: {
 			title: 'Koronkowe Świeczki',
@@ -29,19 +30,26 @@ export default defineNuxtConfig({
 		'~/assets/styles/global.scss',
 	],
 	modules: [
+		'@pinia/nuxt',
 		'@nuxt/icon',
 		['nuxt-vuefire', vuefireOptions],
+		['@nuxtjs/mdc', mdcOptions],
+		'@nuxt/eslint',
 	],
+	// components: {
+	// 	global: true,
+	// 	path: './components/prose',
+	// },
 	vite: {
 		plugins: [
-			eslint({
-				fix: true,
-				include: ['./**/*.{ts,vue}'],
-			}),
-			stylelint({
-				fix: true,
-				include: ['./**/*.{scss,vue}'],
-			}),
+			// eslint({
+			// 	fix: true,
+			// 	include: ['./**/*.{ts,vue}'],
+			// }),
+			// stylelint({
+			// 	fix: true,
+			// 	include: ['./**/*.{scss,vue}'],
+			// }),
 		],
 		css: {
 			preprocessorOptions: {
@@ -55,4 +63,9 @@ export default defineNuxtConfig({
 		},
 	},
 	compatibilityDate: '2024-08-16',
+	runtimeConfig: {
+		public: {
+			env: process.env.NUXT_PUBLIC_ENV,
+		},
+	},
 });

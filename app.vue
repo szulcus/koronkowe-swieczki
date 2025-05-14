@@ -1,4 +1,6 @@
-<script setup lang="ts" name="App" />
+<script setup lang="ts">
+const rootStore = useRootStore()
+</script>
 
 <template>
 	<TheHeader />
@@ -14,6 +16,7 @@
 		<HomeUsage />
 		<HomeSafety />
 		<HomeContact />
+		<div v-if="rootStore.homeData?.id === 'dev'" class="app__version">DEV</div>
 	</main>
 	<TheFooter />
 	<TheCookies />
@@ -24,6 +27,17 @@
 		width: min(1000px, 100%);
 		padding: 20px;
 		margin: 0 auto;
+		.app__version {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: $text-primary;
+			color: $bg-primary;
+			padding: 6px 10px;
+			font-weight: bold;
+			outline: $text-secondary solid 1px;
+			outline-offset: 2px;
+		}
 		.intro__new {
 			padding: 10px;
 			border-top: 1px solid $text-secondary;

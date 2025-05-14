@@ -16,8 +16,8 @@
 	// Special offer
 	// import christmasOffer from '~/assets/data/christmas-offer';
 	// import grandpaOffer from '~/assets/data/grandpa-offer';
-	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer: SpecialOffer | undefined = undefined;
+	import valentineOffer from '~/assets/data/valentine-offer';
+	const specialOffer: SpecialOffer | undefined = valentineOffer;
 
 	const sizes: SizeOfferVariant[] = [
 		{
@@ -121,83 +121,56 @@
 			},
 		},
 	];
+	const rootStore = useRootStore();
 </script>
 
 <template>
-	<AppSection id="oferta" title="Oferta" class="home-offer">
+	<AppSection v-if="rootStore.homeData" id="oferta" :title="rootStore.homeData.offer.title" class="home-offer">
 		<div class="home-offer__description">
-			Wybierz rozmiar lub zestaw, który najbardziej Ci odpowiada:<br />
+			<MDC :value="rootStore.homeData.offer.description" :tag="false" />
 		</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
-				<h3 class="part__title">Rozmiary</h3>
-				<div
-					v-for="size in sizes"
+				<h3 class="part__title">{{ rootStore.homeData.offer.sizes }}</h3>
+				<AppVariant
+					v-for="size in rootStore.homeData.offerSizes"
 					:key="size.name"
-					class="part__variant"
-				>
-					<img class="variant__img" :src="size.img" :alt="size.name" />
-					<div class="variant__info">
-						<div class="info__name">{{ size.name }}</div>
-						<div class="info__price">{{ size.price }}</div>
-						<div class="info__properties">
-							<div class="properties__property">
-								<icon name="fa6-solid:fire" />
-								{{ size.properties.burningTime }}
-							</div>
-							<div class="properties__property">
-								<icon name="fa6-solid:ruler" />
-								{{ size.properties.dimensions }}
-							</div>
-						</div>
-					</div>
-				</div>
+					:variant="size"
+				/>
 			</div>
 			<div class="price-list__part">
-				<h3 class="part__title">Zestawy</h3>
-				<div
-					v-for="set in sets"
+				<h3 class="part__title">{{ rootStore.homeData.offer.sets }}</h3>
+				<AppVariant
+					v-for="set in rootStore.homeData.offerSets"
 					:key="set.name"
-					class="part__variant"
-				>
-					<img class="variant__img" :src="set.img" :alt="set.name" />
-					<div class="variant__info">
-						<div class="info__name">{{ set.name }}</div>
-						<div class="info__price">{{ set.price }}</div>
-						<div class="info__properties">
-							<div class="properties__property">
-								<icon name="fa6-solid:box" />
-								{{ set.properties.items }}
-							</div>
-						</div>
-					</div>
-				</div>
+					:variant="set"
+				/>
 			</div>
 		</div>
-		<div class="home-offer__warning">* cena za produkty z edycji zapachowej</div>
-		<div v-if="specialOffer" :id="specialOffer.id" class="home-offer__special">
+		<div class="home-offer__warning">* {{ rootStore.homeData.offer.footnote }}</div>
+		<div v-if="rootStore.homeData.specialOffer" :id="rootStore.homeData.specialOffer.id" class="home-offer__special">
 			<div class="special__part">
-				<h3 class="part__title">{{ specialOffer.name }}</h3>
+				<h3 class="part__title">{{ rootStore.homeData.specialOffer.name }}</h3>
 				<div
-					v-for="item in specialOffer.variants"
-					:key="item.name"
+					v-for="variant in rootStore.homeData.specialOffer.variants"
+					:key="variant.name"
 					class="part__variant"
 				>
-					<img class="variant__img" :src="item.img" :alt="item.name" />
+					<img class="variant__img" :src="variant.image" :alt="variant.name" />
 					<div class="variant__info">
-						<div class="info__name">{{ item.name }}</div>
-						<div class="info__price">{{ item.price }}</div>
+						<div class="info__name">{{ variant.name }}</div>
+						<div class="info__price">{{ variant.price }}</div>
 						<div class="info__properties">
 							<div class="properties__property">
 								<icon name="fa6-solid:arrow-up-right-from-square" />
-								{{ item.properties.equivalent }}
+								{{ variant.properties.equivalent }}
 							</div>
 						</div>
-						<div class="info__description">{{ item.description }}</div>
+						<div class="info__description">{{ variant.description }}</div>
 					</div>
 				</div>
 			</div>
-			<div class="special__warning">* cena za produkty z edycji zapachowej</div>
+			<div class="special__warning">* {{ rootStore.homeData.offer.footnote }}</div>
 		</div>
 	</AppSection>
 </template>
@@ -226,42 +199,6 @@
 					font-size: 1.125rem;
 					text-align: center;
 					text-transform: uppercase;
-				}
-				.part__variant {
-					display: flex;
-					align-items: flex-start;
-					gap: 20px;
-					&:not(:last-child) {
-						margin-bottom: 30px;
-					}
-					.variant__img {
-						width: 150px;
-						border: 1px solid $text-secondary;
-						aspect-ratio: 4 / 3;
-						object-fit: cover;
-					}
-					.variant__info {
-						.info__name {
-							white-space: pre-line;
-						}
-						.info__price {
-							font-size: 1.25rem;
-							font-weight: bold;
-						}
-						.info__properties {
-							.properties__property {
-								display: flex;
-								align-items: center;
-								font-size: 12px;
-								font-weight: bold;
-								gap: 5px;
-							}
-						}
-						.info__description {
-							margin-top: 10px;
-							font-size: 14px;
-						}
-					}
 				}
 			}
 			.special__part {

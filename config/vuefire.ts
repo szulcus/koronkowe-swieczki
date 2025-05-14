@@ -1,4 +1,4 @@
-import { type ModuleOptions } from 'nuxt-vuefire';
+import type { ModuleOptions } from 'nuxt-vuefire';
 
 const vuefireOptions: ModuleOptions = {
 	config: {
@@ -10,6 +10,7 @@ const vuefireOptions: ModuleOptions = {
 		appId: '1:15197099702:web:425b79329035d016303817',
 		measurementId: 'G-HE4YWNT833',
 	},
+	
 };
 
 export default vuefireOptions;

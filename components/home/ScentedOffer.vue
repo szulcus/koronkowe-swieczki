@@ -66,23 +66,26 @@
 	];
 
 	const { scentedColors } = useColors();
+	const rootStore = useRootStore();
+	// [SoyaStar](https://soyastar.pl/)
 </script>
 
 <template>
-	<AppSection id="edycja-zapachowa" title="Edycja Zapachowa" class="home-smell-offer">
+	<AppSection v-if="rootStore.homeData" id="edycja-zapachowa" :title="rootStore.homeData.scentedOffer.title" class="home-smell-offer">
 		<div class="home-offer__description">
-			Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:<br />
-			(link do sklepu: <a href="https://soyastar.pl/" target="_blank">SoyaStar</a>)
+			<MDC :value="rootStore.homeData.scentedOffer.description" :tag="false" />
+			<!-- Ręcznie robione, pachnące świeczki z wosku sojowego w koronkowych ubrankach:<br /> -->
+			<!-- (link do sklepu: <a href="https://soyastar.pl/" target="_blank">SoyaStar</a>) -->
 		</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
 				<h3 class="part__title">Rozmiary</h3>
 				<div
-					v-for="size in sizes"
+					v-for="size in rootStore.homeData.scentedOfferSizes"
 					:key="size.name"
 					class="part__variant"
 				>
-					<img class="variant__img" :src="size.img" :alt="size.name" />
+					<img class="variant__img" :src="size.image" :alt="size.name" />
 					<div class="variant__info">
 						<div class="info__name">{{ size.name }}</div>
 						<div class="info__price">{{ size.price }}</div>
@@ -147,6 +150,7 @@
 			margin-top: 20px;
 			margin-bottom: 10px;
 			text-align: center;
+			// white-space: pre-line;
 		}
 		.home-offer__price-list {
 			display: grid;

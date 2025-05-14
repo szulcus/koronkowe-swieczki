@@ -1,17 +1,66 @@
-export interface ApiCandleVariant {
-	uuid: string;
-	size: 'S' | 'M' | 'L';
-	amount: string;
-	candleUuid: string;
-}
-export interface ApiCandle {
-	uuid: string;
+import type { VueFirestoreDocumentData } from 'vuefire';
+
+export interface ApiOffer {
+	title: string;
+	description: string;
+	footnote: string;
+	sizes: string;
+	sets: string;
+};
+export type ApiOfferVariant<T extends string = string> = {
 	name: string;
+	price: string;
+	previousPrice?: string;
+	image?: string;
+	properties: Record<T, string>
+}
+export interface ApiSpecialOfferVariant extends ApiOfferVariant<'equivalent'> {
+	description: string;
+}
+export interface ApiColor {
+	id: string;
 	color: string;
-	image: string | null;
-}
-export interface ApiCandleSet {
-	uuid: string;
 	name: string;
-	// candles: ApiCandle[];
+	customName?: string;
+	available: boolean;
+	smell?: string;
+}
+
+export interface ApiHomeData {
+	intro: {
+		logo: string;
+		content: string;
+	};
+	offer: ApiOffer;
+	offerSizes: ApiOfferVariant<'burningTime' | 'dimensions'>[];
+	offerSets: ApiOfferVariant<'items'>[];
+	specialOffer: VueFirestoreDocumentData<{
+		name: string;
+		variants: ApiSpecialOfferVariant[];
+	}>,
+	kashubianOffer: Omit<ApiOffer, 'footnote'>
+	kashubianOfferSizes: ApiOfferVariant<'burningTime' | 'dimensions'>[];
+	kashubianOfferSets: ApiOfferVariant<'items'>[];
+	scentedOffer: Omit<ApiOffer, 'footnote' | 'sets'> & { colors: string };
+	scentedOfferSizes: ApiOfferVariant<'burningTime' | 'weight' | 'dimensions'>[];
+	colors: ApiColor[];
+	safety: {
+		title: string;
+		description: string;
+		content: string;
+	};
+	usage: {
+		title: string;
+		description: string;
+	};
+	contact: {
+		title: string;
+		description: string;
+		labels: {
+			name: string;
+			email: string;
+			message: string;
+			submit: string;
+		}
+	};
 }
