@@ -20,6 +20,7 @@ const rootStore = useRootStore()
 	</main>
 	<TheFooter />
 	<TheCookies />
+	<AppGallery />
 </template>
 
 <style scoped lang="scss">
