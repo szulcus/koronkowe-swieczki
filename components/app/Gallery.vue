@@ -156,7 +156,7 @@
 		position: fixed;
 		inset: 0;
 		z-index: 2;
-		background-color: rgb(black, 0.8);
+		background-color: rgb(black, 0.9);
 		display: flex;
 		flex-direction: column;
 		.app-gallery__loader {
@@ -220,6 +220,7 @@
 				padding: 0 10px;
 				flex: 0 0 100%;
 				scroll-snap-align: start;
+				scroll-snap-stop: always;
 				display: flex;
 				align-items: center;
 				justify-content: center;

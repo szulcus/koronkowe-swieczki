@@ -90,3 +90,13 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
 	display: none;
 }
+
+// Transitions
+.v-enter-active,
+.v-leave-active {
+	transition: opacity 0.5s ease;
+}
+.v-enter-from,
+.v-leave-to {
+	opacity: 0;
+}
