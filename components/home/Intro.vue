@@ -6,7 +6,7 @@
 
 <template>
 	<div v-if="rootStore.homeData" class="home-intro">
-		<img class="intro__logo" :src="rootStore.homeData.intro.logo" alt="Koronkowe Świeczki Logo" />
+		<img class="intro__logo" :src="getImage(rootStore.homeData.intro.logo)" alt="Koronkowe Świeczki Logo" />
 		<div class="intro__content">
 			<MDC :value="rootStore.homeData.intro.content" :tag="false" />
 			<!-- Z miłością, pasją i sercem tworzę eleganckie, stylowe ubranka - koronki na świeczki. Każde z nich wykonuję ręcznie, szydełkując z wysokiej jakości, merceryzowanej bawełny polskiej marki Ariadna. Do każdego produktu dołączam świeczkę wykonaną z wosku roślinnego lub ręcznie robioną świecę sojową polskiej marki SoyaStar.<br />

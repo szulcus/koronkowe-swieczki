@@ -20,7 +20,13 @@ const rootStore = useRootStore()
 	</main>
 	<TheFooter />
 	<TheCookies />
-	<AppGallery />
+	<AppGallery
+		:active="!!rootStore.activeGallery"
+		:images="rootStore.galleryImages"
+		:offer="rootStore.galleryOffer"
+		:active-index="rootStore.activeGallery?.index"
+		@close="rootStore.closeGallery"
+	/>
 </template>
 
 <style scoped lang="scss">
@@ -30,8 +36,8 @@ const rootStore = useRootStore()
 		margin: 0 auto;
 		.app__version {
 			position: fixed;
-			bottom: 20px;
-			right: 20px;
+			bottom: 10px;
+			right: 10px;
 			background-color: $text-primary;
 			color: $bg-primary;
 			padding: 6px 10px;

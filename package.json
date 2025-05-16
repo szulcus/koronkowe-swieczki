@@ -10,6 +10,7 @@
 	},
 	"devDependencies": {
 		"@nuxtjs/eslint-config-typescript": "^12.0.0",
+		"@types/lodash.debounce": "^4.0.9",
 		"eslint": "^8.36.0",
 		"eslint-plugin-jsonc": "^2.7.0",
 		"nuxt": "^3.17.3",
@@ -30,6 +31,8 @@
 		"@pinia/nuxt": "0.11.0",
 		"change-case": "^5.4.4",
 		"firebase": "^10.12.5",
+		"ldrs": "^1.0.2",
+		"lodash.debounce": "^4.0.8",
 		"nuxt-vuefire": "^1.0.3",
 		"pinia": "^3.0.2",
 		"vuefire": "^3.1.24"

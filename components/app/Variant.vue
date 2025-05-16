@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import type { ApiOfferVariant } from '~/types';
+	import type { ApiOfferType, ApiOfferVariant } from '~/types';
 
 	// Props
 	interface Props {
@@ -8,11 +8,20 @@
 		};
 	}
 	const props = defineProps<Props>();
+
+	// Emits
+	interface Emits {
+		(name: 'open-gallery'): void;
+	}
+	const emit = defineEmits<Emits>();
+
 </script>
 
 <template>
 	<div class="app-variant">
-		<img class="app-variant__img" :src="props.variant.image" :alt="props.variant.name" />
+		<div class="app-variant__thumbnail">
+			<img class="thumbnail__img" :src="getImage(props.variant.image, 's')" :alt="props.variant.name" lazy @click="emit('open-gallery')" />
+		</div>
 		<div class="app-variant__info">
 			<div class="info__name">{{ props.variant.name }}</div>
 			<div class="info__price">
@@ -53,11 +62,21 @@
 		&:not(:last-child) {
 			margin-bottom: 20px;
 		}
-		.app-variant__img {
-			width: 150px;
-			border: 1px solid $text-secondary;
+		.app-variant__thumbnail {
+			overflow: hidden;
+			flex-basis: 150px;
 			aspect-ratio: 4 / 3;
-			object-fit: cover;
+			outline: 1px solid $text-secondary;
+			.thumbnail__img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: 0.2s ease;
+				@include hover {
+					scale: 1.1;
+					opacity: 0.7;
+				}
+			}
 		}
 		.app-variant__info {
 			.info__name {

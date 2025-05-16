@@ -1,5 +1,6 @@
 import type { VueFirestoreDocumentData } from 'vuefire';
 
+export type ApiOfferType = 'offer' | 'specialOffer' | 'kashubianOffer' | 'scentedOffer';
 export interface ApiOffer {
 	title: string;
 	description: string;

@@ -14,17 +14,19 @@
 			<div class="price-list__part">
 				<h3 class="part__title">{{ rootStore.homeData.kashubianOffer.sizes }}</h3>
 				<AppVariant
-					v-for="size in rootStore.homeData.kashubianOfferSizes"
+					v-for="(size, sizeIndex) in rootStore.homeData.kashubianOfferSizes"
 					:key="size.name"
 					:variant="size"
+					@open-gallery="rootStore.openGallery('kashubianOffer', sizeIndex)"
 				/>
 			</div>
 			<div class="price-list__part">
 				<h3 class="part__title">{{ rootStore.homeData.kashubianOffer.sets }}</h3>
 				<AppVariant
-					v-for="set in rootStore.homeData.kashubianOfferSets"
+					v-for="(set, setIndex) in rootStore.homeData.kashubianOfferSets"
 					:key="set.name"
 					:variant="set"
+					@open-gallery="rootStore.openGallery('kashubianOffer', rootStore.homeData.kashubianOfferSizes.length + setIndex)"
 				/>
 			</div>
 		</div>

@@ -1,126 +1,5 @@
 <script setup lang="ts">
-	import { type SizeOfferVariant, type SetOfferVariant, type SpecialOffer } from '~/types';
-	// Sizes
-	import sSize from '~/assets/images/sizes/s.jpeg';
-	import mSize from '~/assets/images/sizes/m.jpg';
-	import lSize from '~/assets/images/sizes/l.jpg';
-	import xlSize from '~/assets/images/sizes/xl.jpeg';
-	import xxlSize from '~/assets/images/sizes/xxl.jpeg';
-	// Sets
-	import miniSet from '~/assets/images/sets/mini.jpeg';
-	import smallSet from '~/assets/images/sets/small.jpg';
-	import giftSet from '~/assets/images/sets/gift.jpeg';
-	import decorativeSet from '~/assets/images/sets/decorative.jpg';
-	import bigSet from '~/assets/images/sets/big.jpeg';
-	import premiumSet from '~/assets/images/sets/premium.jpg';
-	// Special offer
-	// import christmasOffer from '~/assets/data/christmas-offer';
-	// import grandpaOffer from '~/assets/data/grandpa-offer';
-	import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer: SpecialOffer | undefined = valentineOffer;
-
-	const sizes: SizeOfferVariant[] = [
-		{
-			name: 'Rozmiar S',
-			price: '10zł / 13zł*',
-			img: sSize,
-			properties: {
-				burningTime: '4 godziny',
-				dimensions: '4cm x 1.5cm',
-				// 'wymienny podgrzewacz',
-			},
-		},
-		{
-			name: 'Rozmiar M',
-			price: '20zł / 25zł*',
-			img: mSize,
-			properties: {
-				burningTime: '9 godzin',
-				dimensions: '6cm x 2.5cm',
-				// 'wymienny podgrzewacz',
-			},
-		},
-		{
-			name: 'Rozmiar L',
-			price: '25zł',
-			img: lSize,
-			properties: {
-				burningTime: '12 godzin',
-				dimensions: '5cm x 5cm',
-				// 'słoiczek wielokrotnego użytku',
-			},
-		},
-		{
-			name: 'Rozmiar XL',
-			price: '30zł',
-			img: xlSize,
-			properties: {
-				burningTime: '15 godzin',
-				dimensions: '5.5cm x 8cm',
-				// 'słoiczek wielokrotnego użytku',
-			},
-		},
-		{
-			name: 'Rozmiar XXL',
-			price: '35zł',
-			img: xxlSize,
-			properties: {
-				burningTime: '30 godzin',
-				dimensions: '6cm x 10cm',
-				// 'słoiczek wielokrotnego użytku',
-			},
-		},
-	];
-	const sets: SetOfferVariant[] = [
-		{
-			name: 'Zestaw Mini',
-			price: '20zł / 25zł*',
-			img: miniSet,
-			properties: {
-				items: '2xS',
-			},
-		},
-		{
-			name: 'Zestaw Mały',
-			price: '35zł / 45zł*',
-			img: smallSet,
-			properties: {
-				items: '1xM + 2xS',
-			},
-		},
-		{
-			name: 'Zestaw Prezentowy',
-			price: '45zł / 65zł*',
-			img: giftSet,
-			properties: {
-				items: '3xM',
-			},
-		},
-		{
-			name: 'Zestaw Dekoracyjny',
-			price: '60zł / 70zł*',
-			img: decorativeSet,
-			properties: {
-				items: '1xM + 6 obrączek',
-			},
-		},
-		{
-			name: 'Zestaw Duży',
-			price: '85zł / 100zł*',
-			img: bigSet,
-			properties: {
-				items: '3xM + 4xS',
-			},
-		},
-		{
-			name: 'Zestaw PREMIUM',
-			price: '100zł / 120zł*',
-			img: premiumSet,
-			properties: {
-				items: '3xM + 5xS',
-			},
-		},
-	];
+	// Composables
 	const rootStore = useRootStore();
 </script>
 
@@ -133,17 +12,19 @@
 			<div class="price-list__part">
 				<h3 class="part__title">{{ rootStore.homeData.offer.sizes }}</h3>
 				<AppVariant
-					v-for="size in rootStore.homeData.offerSizes"
+					v-for="(size, sizeIndex) in rootStore.homeData.offerSizes"
 					:key="size.name"
 					:variant="size"
+					@open-gallery="rootStore.openGallery('offer', sizeIndex)"
 				/>
 			</div>
 			<div class="price-list__part">
 				<h3 class="part__title">{{ rootStore.homeData.offer.sets }}</h3>
 				<AppVariant
-					v-for="set in rootStore.homeData.offerSets"
+					v-for="(set, setIndex) in rootStore.homeData.offerSets"
 					:key="set.name"
 					:variant="set"
+					@open-gallery="rootStore.openGallery('offer', rootStore.homeData.offerSizes.length + setIndex)"
 				/>
 			</div>
 		</div>
@@ -152,11 +33,17 @@
 			<div class="special__part">
 				<h3 class="part__title">{{ rootStore.homeData.specialOffer.name }}</h3>
 				<div
-					v-for="variant in rootStore.homeData.specialOffer.variants"
+					v-for="(variant, variantIndex) in rootStore.homeData.specialOffer.variants"
 					:key="variant.name"
 					class="part__variant"
 				>
-					<img class="variant__img" :src="variant.image" :alt="variant.name" />
+					<div class="variant__thumbnail">
+						<img class="thumbnail__img"
+							:src="getImage(variant.image, 's')"
+							:alt="variant.name"
+							@click="rootStore.openGallery('specialOffer', variantIndex)"
+						/>
+					</div>
 					<div class="variant__info">
 						<div class="info__name">{{ variant.name }}</div>
 						<div class="info__price">{{ variant.price }}</div>
@@ -184,13 +71,6 @@
 		}
 		.home-offer__price-list,
 		.home-offer__special {
-			// display: grid;
-			// margin-top: 20px;
-			// gap: 40px;
-			// grid-template-columns: repeat(1, 1fr);
-			// @media (min-width: 900px) {
-			// 	grid-template-columns: repeat(2, 1fr);
-			// }
 			.price-list__part,
 			.special__part {
 				@include decorative-bg;
@@ -202,14 +82,13 @@
 				}
 			}
 			.special__part {
-				// display: grid;
-				// grid-column: 1 / -1;
-				// grid-template-columns: repeat(1, 1fr);
-
-				// @include decorative-bg(red, rgb(red, 0.1));
 				.part__variant {
+					display: flex;
+					align-items: flex-start;
+					gap: 20px;
 					flex-direction: column;
 					&:not(:last-child) {
+						margin-bottom: 30px;
 						padding-bottom: 30px;
 						border-bottom: 1px solid rgb($text-secondary, 0.3);
 					}
@@ -218,15 +97,54 @@
 					}
 					.variant__info {
 						font-size: 18px;
+						.info__name {
+							white-space: pre-line;
+						}
+						.info__price {
+							font-size: 1.25rem;
+							font-weight: bold;
+						}
+						.info__properties {
+							.properties__property {
+								display: flex;
+								align-items: center;
+								font-size: 12px;
+								font-weight: bold;
+								gap: 5px;
+							}
+						}
+						.info__description {
+							margin-top: 10px;
+							font-size: 14px;
+						}
 					}
-					.variant__img {
-						width: 70%;
+					.variant__thumbnail {
+						overflow: hidden;
+						width: 150px;
+						flex-shrink: 0;
+						aspect-ratio: 4 / 3;
+						border: 1px solid $text-secondary;
 						margin: 0 auto;
 						@media (min-width: 720px) {
 							width: 200px;
-							flex-direction: row;
+						}
+						.thumbnail__img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+							transition: 0.2s ease;
+							@include hover {
+								scale: 1.1;
+								opacity: 0.7;
+							}
 						}
 					}
+					// .variant__img {
+					// 	width: 150px;
+					// 	border: 1px solid $text-secondary;
+					// 	aspect-ratio: 4 / 3;
+					// 	object-fit: cover;
+					// }
 				}
 			}
 		}

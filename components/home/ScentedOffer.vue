@@ -1,73 +1,8 @@
 <script setup lang="ts">
-	import { type SizeOfferVariant, type SpecialOffer } from '~/types';
-	// Sizes
-	import premiumSize from '~/assets/images/scented-sizes/premium.jpg';
-	import lSize from '~/assets/images/scented-sizes/l.jpeg';
-	import mSize from '~/assets/images/scented-sizes/m.jpg';
-	import sSize from '~/assets/images/scented-sizes/s.jpeg';
-	import gadgetsSize from '~/assets/images/scented-sizes/gadgets.jpeg';
-	// Special offer
-	// import christmasOffer from '~/assets/data/christmas-offer';
-	// import grandpaOffer from '~/assets/data/grandpa-offer';
-	// import valentineOffer from '~/assets/data/valentine-offer';
-	const specialOffer: SpecialOffer | undefined = undefined;
-
-	const sizes: SizeOfferVariant[] = [
-		{
-			name: 'PREMIUM',
-			price: '85zł',
-			img: premiumSize,
-			properties: {
-				burningTime: '~50 godzin',
-				weight: '200g',
-				dimensions: '7cm x 9cm',
-			},
-		},
-		{
-			name: 'Rozmiar L',
-			price: '55zł',
-			img: lSize,
-			properties: {
-				burningTime: '~25 godzin',
-				weight: '100g',
-				dimensions: '6cm x 6.5cm',
-			},
-		},
-		{
-			name: 'Rozmiar M',
-			price: '25zł',
-			img: mSize,
-			properties: {
-				burningTime: '~9 godzin',
-				weight: '45g',
-				dimensions: '6.5cm x 2.5cm',
-			},
-		},
-		{
-			name: 'Rozmiar S',
-			price: '15.50zł',
-			img: sSize,
-			properties: {
-				burningTime: '~5 godzin',
-				weight: '20g',
-				dimensions: '4.5cm x 4cm',
-			},
-		},
-		{
-			name: 'GADŻETY',
-			price: '10zł',
-			img: gadgetsSize,
-			properties: {
-				burningTime: '~4 godziny',
-				weight: '15g',
-				dimensions: '4cm x 1.5cm',
-			},
-		},
-	];
-
+	// Composables
 	const { scentedColors } = useColors();
 	const rootStore = useRootStore();
-	// [SoyaStar](https://soyastar.pl/)
+
 </script>
 
 <template>
@@ -79,35 +14,16 @@
 		</div>
 		<div class="home-offer__price-list">
 			<div class="price-list__part">
-				<h3 class="part__title">Rozmiary</h3>
-				<div
-					v-for="size in rootStore.homeData.scentedOfferSizes"
+				<h3 class="part__title">{{ rootStore.homeData.scentedOffer.sizes }}</h3>
+				<AppVariant
+					v-for="(size, sizeIndex) in rootStore.homeData.scentedOfferSizes"
 					:key="size.name"
-					class="part__variant"
-				>
-					<img class="variant__img" :src="size.image" :alt="size.name" />
-					<div class="variant__info">
-						<div class="info__name">{{ size.name }}</div>
-						<div class="info__price">{{ size.price }}</div>
-						<div class="info__properties">
-							<div v-if="size.properties.dimensions" class="properties__property">
-								<icon name="fa6-solid:ruler" />
-								{{ size.properties.dimensions }}
-							</div>
-							<div v-if="size.properties.weight" class="properties__property">
-								<icon name="fa6-solid:scale-unbalanced" />
-								{{ size.properties.weight }}
-							</div>
-							<div v-if="size.properties.burningTime" class="properties__property">
-								<icon name="fa6-solid:fire" />
-								{{ size.properties.burningTime }}
-							</div>
-						</div>
-					</div>
-				</div>
+					:variant="size"
+					@open-gallery="rootStore.openGallery('scentedOffer', sizeIndex)"
+				/>
 			</div>
 			<div class="price-list__part">
-				<h3 class="part__title">Zapachy i kolory</h3>
+				<h3 class="part__title">{{ rootStore.homeData.scentedOffer.colors }}</h3>
 				<ul class="part__list">
 					<li
 						v-for="color in scentedColors"
@@ -118,27 +34,6 @@
 						{{ color.smell }} ({{ color.customName ?? color.name }})
 					</li>
 				</ul>
-			</div>
-			<div v-if="specialOffer" :id="specialOffer.id" class="price-list__part price-list__part--special">
-				<h3 class="part__title">{{ specialOffer.name }}</h3>
-				<div
-					v-for="item in specialOffer.variants"
-					:key="item.name"
-					class="part__variant"
-				>
-					<img class="variant__img" :src="item.img" :alt="item.name" />
-					<div class="variant__info">
-						<div class="info__name">{{ item.name }}</div>
-						<div class="info__price">{{ item.price }}</div>
-						<div class="info__properties">
-							<div class="properties__property">
-								<icon name="fa6-solid:arrow-up-right-from-square" />
-								{{ item.properties.equivalent }}
-							</div>
-						</div>
-						<div class="info__description">{{ item.description }}</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</AppSection>
